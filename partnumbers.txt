@@ -1,0 +1,17 @@
+Art:nr		type		footprint	library
+BT00xxx = passive
+BT00001-xxxxx	resistors	0805		bt_resistors
+BT00002-xxxxx	resistors	0603		bt_resistors
+...
+BT01xxx = MCU/CPU
+BT01001-00001	ATSAME53J18A-MU	VQFN		bt_mcu
+BT01001-00002	ATSAME53J18A-AZ	TQFP		bt_mcu
+BT01002-00001	ATSAME54N19A-MU	VQFN		bt_mcu
+BT01002-00002	ATSAME54N19A-MU	TQFP		bt_mcu
+...
+BT02xxx = Communication
+BT02001-00001	KSZ8091MLXIA	LQFP		bt_com	
+
+
+
+none standard footprints are in bt_footprints
