@@ -16,7 +16,10 @@ BT02001-00001	KSZ8091MLXIA	LQFP		bt_com
 BT10xxx = Connectors
 ...
 BT90xxx = modules
-BT90001-00001	TEENSY 4.1			bt_module
+BT90001-00001	TEENSY 4.0			bt_module
+BT90001-00002	TEENSY 4.0 SMT			bt_module
+BT90002-00001	TEENSY 4.1			bt_module
+
 
 
 
