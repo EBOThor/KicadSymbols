@@ -172,6 +172,9 @@
 						)
 					)
 				)
+				(alternate "EXTINT[0]" bidirectional line)
+				(alternate "SERCOM1/PAD[0]" bidirectional line)
+				(alternate "TC/WO0[1]" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 0 -22.86 0)
@@ -370,6 +373,9 @@
 						)
 					)
 				)
+				(alternate "EXTINT[1]" open_collector line)
+				(alternate "SERCOM1/PAD[1]" bidirectional line)
+				(alternate "TC2/WO[1]" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 45.72 -30.48 180)
@@ -532,6 +538,9 @@
 						)
 					)
 				)
+				(alternate "ADC0/AIN[0]" input line)
+				(alternate "DAC/VOUT[0]" output line)
+				(alternate "EXTINT[2]" open_collector line)
 			)
 			(pin bidirectional line
 				(at 45.72 -35.56 180)
@@ -694,6 +703,10 @@
 						)
 					)
 				)
+				(alternate "ADC0/AIN[1]" bidirectional line)
+				(alternate "ANAREF/VFRFA" input line)
+				(alternate "EXTINT[3]" open_collector line)
+				(alternate "X0/Y0" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 0 -48.26 0)
@@ -1072,6 +1085,11 @@
 						)
 					)
 				)
+				(alternate "ADC0/AIN[15]" input line)
+				(alternate "EXTINT[3]" open_collector line)
+				(alternate "SERCOM5/PAD[1]" bidirectional line)
+				(alternate "TC6/WO[1]" bidirectional line)
+				(alternate "X21/Y21" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 0 -20.32 0)
@@ -1142,7 +1160,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -15.24 0)
+				(at 0 -12.7 0)
 				(length 7.62)
 				(name "VDDIOB"
 					(effects
@@ -1196,7 +1214,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -7.62 0)
+				(at 0 -5.08 0)
 				(length 7.62)
 				(name "VDDIO"
 					(effects
@@ -1232,7 +1250,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -10.16 0)
+				(at 0 -7.62 0)
 				(length 7.62)
 				(name "VDDIO"
 					(effects
@@ -1250,7 +1268,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -2.54 0)
+				(at 0 -17.78 0)
 				(length 7.62)
 				(name "VDDCORE"
 					(effects
@@ -1304,7 +1322,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -12.7 0)
+				(at 0 -10.16 0)
 				(length 7.62)
 				(name "VDDIO"
 					(effects
@@ -2252,7 +2270,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 -60.96 0)
+				(at 0 -1.27 0)
 				(length 7.62)
 				(name "RESETN"
 					(effects
@@ -2262,24 +2280,6 @@
 					)
 				)
 				(number "52"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 0 -63.5 0)
-				(length 7.62)
-				(name "VSW"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "55"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2449,24 +2449,6 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 0 0 0)
-				(length 7.62)
-				(name "EPAD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "65"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin bidirectional line
 				(at 0 -20.32 0)
 				(length 7.62)
@@ -2489,7 +2471,7 @@
 		(symbol "ATSAME53J18A-MU_2_1"
 			(polyline
 				(pts
-					(xy 7.62 -35.56) (xy 33.02 -35.56)
+					(xy 7.62 -39.37) (xy 33.02 -39.37)
 				)
 				(stroke
 					(width 0.127)
@@ -2501,7 +2483,7 @@
 			)
 			(polyline
 				(pts
-					(xy 7.62 5.08) (xy 7.62 -35.56)
+					(xy 7.62 5.08) (xy 7.62 -39.37)
 				)
 				(stroke
 					(width 0.127)
@@ -2513,7 +2495,7 @@
 			)
 			(polyline
 				(pts
-					(xy 33.02 -35.56) (xy 33.02 5.08)
+					(xy 33.02 -39.37) (xy 33.02 5.08)
 				)
 				(stroke
 					(width 0.127)
@@ -2536,7 +2518,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -7.62 0)
+				(at 0 -3.81 0)
 				(length 7.62)
 				(name "VDDIO"
 					(effects
@@ -2554,7 +2536,7 @@
 				)
 			)
 			(pin power_out line
-				(at 0 -22.86 0)
+				(at 0 -26.67 0)
 				(length 7.62)
 				(name "GND"
 					(effects
@@ -2572,7 +2554,7 @@
 				)
 			)
 			(pin power_out line
-				(at 0 -25.4 0)
+				(at 0 -29.21 0)
 				(length 7.62)
 				(name "GND"
 					(effects
@@ -2590,7 +2572,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -10.16 0)
+				(at 0 -6.35 0)
 				(length 7.62)
 				(name "VDDIO"
 					(effects
@@ -2608,7 +2590,7 @@
 				)
 			)
 			(pin power_out line
-				(at 0 -27.94 0)
+				(at 0 -31.75 0)
 				(length 7.62)
 				(name "GND"
 					(effects
@@ -2626,7 +2608,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -12.7 0)
+				(at 0 -8.89 0)
 				(length 7.62)
 				(name "VDDIO"
 					(effects
@@ -2644,7 +2626,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -2.54 0)
+				(at 0 -16.51 0)
 				(length 7.62)
 				(name "VDDCORE"
 					(effects
@@ -2662,7 +2644,7 @@
 				)
 			)
 			(pin power_out line
-				(at 0 -30.48 0)
+				(at 0 -34.29 0)
 				(length 7.62)
 				(name "GND"
 					(effects
@@ -2679,8 +2661,26 @@
 					)
 				)
 			)
+			(pin unspecified line
+				(at 0 -19.05 0)
+				(length 7.62)
+				(name "VSW"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "55"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin power_in line
-				(at 0 -15.24 0)
+				(at 0 -11.43 0)
 				(length 7.62)
 				(name "VDDIO"
 					(effects
@@ -2697,8 +2697,26 @@
 					)
 				)
 			)
+			(pin unspecified line
+				(at 20.32 -46.99 90)
+				(length 7.62)
+				(name "EPAD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "65"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin power_out line
-				(at 0 -20.32 0)
+				(at 0 -24.13 0)
 				(length 7.62)
 				(name "GND"
 					(effects
@@ -4406,29 +4424,11 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 0 -2.54 0)
-				(length 7.62)
-				(name "VSW"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "91"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 		)
 		(symbol "ATSAME54N19A-AU_3_1"
 			(polyline
 				(pts
-					(xy 7.62 -48.26) (xy 33.02 -48.26)
+					(xy 7.62 -55.88) (xy 33.02 -55.88)
 				)
 				(stroke
 					(width 0.127)
@@ -4440,7 +4440,7 @@
 			)
 			(polyline
 				(pts
-					(xy 7.62 5.08) (xy 7.62 -48.26)
+					(xy 7.62 5.08) (xy 7.62 -55.88)
 				)
 				(stroke
 					(width 0.127)
@@ -4452,7 +4452,7 @@
 			)
 			(polyline
 				(pts
-					(xy 33.02 -48.26) (xy 33.02 5.08)
+					(xy 33.02 -55.88) (xy 33.02 5.08)
 				)
 				(stroke
 					(width 0.127)
@@ -4475,7 +4475,7 @@
 				)
 			)
 			(pin power_out line
-				(at 0 -43.18 0)
+				(at 0 -50.8 0)
 				(length 7.62)
 				(name "GNDANA"
 					(effects
@@ -4511,7 +4511,7 @@
 				)
 			)
 			(pin power_out line
-				(at 0 -25.4 0)
+				(at 0 -33.02 0)
 				(length 7.62)
 				(name "GND"
 					(effects
@@ -4565,7 +4565,7 @@
 				)
 			)
 			(pin power_out line
-				(at 0 -27.94 0)
+				(at 0 -35.56 0)
 				(length 7.62)
 				(name "GND"
 					(effects
@@ -4583,7 +4583,7 @@
 				)
 			)
 			(pin power_out line
-				(at 0 -30.48 0)
+				(at 0 -38.1 0)
 				(length 7.62)
 				(name "GND"
 					(effects
@@ -4619,7 +4619,7 @@
 				)
 			)
 			(pin power_out line
-				(at 0 -33.02 0)
+				(at 0 -40.64 0)
 				(length 7.62)
 				(name "GND"
 					(effects
@@ -4655,7 +4655,7 @@
 				)
 			)
 			(pin power_out line
-				(at 0 -35.56 0)
+				(at 0 -43.18 0)
 				(length 7.62)
 				(name "GND"
 					(effects
@@ -4691,7 +4691,7 @@
 				)
 			)
 			(pin power_out line
-				(at 0 -38.1 0)
+				(at 0 -45.72 0)
 				(length 7.62)
 				(name "GND"
 					(effects
@@ -4727,7 +4727,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -2.54 0)
+				(at 0 -25.4 0)
 				(length 7.62)
 				(name "VDDCORE"
 					(effects
@@ -4745,7 +4745,7 @@
 				)
 			)
 			(pin power_out line
-				(at 0 -40.64 0)
+				(at 0 -48.26 0)
 				(length 7.62)
 				(name "GND"
 					(effects
@@ -4755,6 +4755,24 @@
 					)
 				)
 				(number "90"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 -27.94 0)
+				(length 7.62)
+				(name "VSW"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "91"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4782,7 +4800,7 @@
 			)
 		)
 	)
-		(symbol "MCX_N546_LPQFP100"
+	(symbol "MCX_N546_LPQFP100"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
