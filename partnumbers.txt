@@ -18,8 +18,16 @@ BT02002-00001	USB2514B/M2	SQFN36		bt_com
 BT03xxx = Power
 BT03001-00001	MIC2026A-1YM	SOIC8		bt_power
 
+BT04xxx = Amplifier
+BT04001-00001	INA350CDSIDDFR	SOT-23-8	bt_amp		50 gain instrument amplifier	ToDo: Amp
+
 ...
 BT10xxx = Connectors
+...
+BT11xxx = Sensors
+BT11001-00001	MPXV6115VC6U	SO8		bt_sensor	ToDo:Vacuum sensor
+BT11002-00001	PSA071040	6_pin		bt_sensor	ToDo:Vacuum sensor
+
 ...
 BT90xxx = modules
 BT90001-00001	TEENSY 4.0			bt_module
