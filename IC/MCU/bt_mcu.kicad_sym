@@ -484,6 +484,7 @@
 						)
 					)
 				)
+				(alternate "GMDC" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 0 -43.18 0)
@@ -502,6 +503,7 @@
 						)
 					)
 				)
+				(alternate "GDNIO" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 45.72 -33.02 180)
@@ -520,6 +522,7 @@
 						)
 					)
 				)
+				(alternate "GRX[1]" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 45.72 -7.62 180)
@@ -559,6 +562,7 @@
 						)
 					)
 				)
+				(alternate "GRX[0]" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 45.72 -38.1 180)
@@ -577,6 +581,8 @@
 						)
 					)
 				)
+				(alternate "TXCK/REFCK" bidirectional line)
+				(alternate "XOSC0/XIN" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 45.72 -40.64 180)
@@ -595,6 +601,8 @@
 						)
 					)
 				)
+				(alternate "GRXER" bidirectional line)
+				(alternate "XOSC0/XOUT" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 45.72 -43.18 180)
@@ -613,6 +621,7 @@
 						)
 					)
 				)
+				(alternate "GCRS/GRXDV" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 45.72 -45.72 180)
@@ -631,6 +640,7 @@
 						)
 					)
 				)
+				(alternate "GTXEN" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 45.72 -48.26 180)
@@ -649,6 +659,7 @@
 						)
 					)
 				)
+				(alternate "GTX[0]" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 45.72 -50.8 180)
@@ -667,6 +678,7 @@
 						)
 					)
 				)
+				(alternate "GTX[1]" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 0 -45.72 0)
@@ -743,6 +755,7 @@
 						)
 					)
 				)
+				(alternate "GMDC" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 45.72 -55.88 180)
@@ -761,6 +774,7 @@
 						)
 					)
 				)
+				(alternate "GMDIO" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 45.72 -58.42 180)
@@ -815,6 +829,7 @@
 						)
 					)
 				)
+				(alternate "USB/DM" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 45.72 -66.04 180)
@@ -833,6 +848,7 @@
 						)
 					)
 				)
+				(alternate "USB/DP" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 0 -50.8 0)
@@ -851,6 +867,7 @@
 						)
 					)
 				)
+				(alternate "XOSC1/XIN" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 0 -15.24 0)
@@ -887,6 +904,7 @@
 						)
 					)
 				)
+				(alternate "XOSC1/XOUT" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 45.72 -68.58 180)
@@ -941,6 +959,7 @@
 						)
 					)
 				)
+				(alternate "SWCLK" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 45.72 -73.66 180)
@@ -959,6 +978,7 @@
 						)
 					)
 				)
+				(alternate "SWDIO" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 0 -55.88 0)

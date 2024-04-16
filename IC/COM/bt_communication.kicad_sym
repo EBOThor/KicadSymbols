@@ -1186,7 +1186,7 @@
 			)
 			(polyline
 				(pts
-					(xy 88.9 -60.96) (xy 88.9 3.81)
+					(xy 88.9 -59.69) (xy 88.9 5.08)
 				)
 				(stroke
 					(width 0.127)
@@ -2072,7 +2072,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 -40.64 0)
+				(at 0 -30.48 0)
 				(length 7.62)
 				(name "CRFILT"
 					(effects
@@ -2216,7 +2216,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 -19.05 0)
+				(at 0 -17.78 0)
 				(length 7.62)
 				(name "SDA/SMBDATA/NON_REM1"
 					(effects
@@ -2234,7 +2234,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 -16.51 0)
+				(at 0 -15.24 0)
 				(length 7.62)
 				(name "SCL/SMBCLK/CFG_SEL0"
 					(effects
@@ -2252,7 +2252,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 -11.43 0)
+				(at 0 -10.16 0)
 				(length 7.62)
 				(name "HS_IND/CFG_SEL1"
 					(effects
@@ -2306,7 +2306,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 -8.89 0)
+				(at 0 -7.62 0)
 				(length 7.62)
 				(name "SUSP_IND/LOCAL_PWR/NON_REM0"
 					(effects
@@ -2342,7 +2342,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 121.92 3.81 180)
+				(at 0 -25.4 0)
 				(length 7.62)
 				(name "USBDM_UP"
 					(effects
@@ -2360,7 +2360,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 121.92 1.27 180)
+				(at 0 -22.86 0)
 				(length 7.62)
 				(name "USBDP_UP"
 					(effects
@@ -2378,7 +2378,7 @@
 				)
 			)
 			(pin output line
-				(at 0 -29.21 0)
+				(at 0 -44.45 0)
 				(length 7.62)
 				(name "XTALOUT"
 					(effects
@@ -2396,7 +2396,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 -26.67 0)
+				(at 0 -41.91 0)
 				(length 7.62)
 				(name "XTALIN/CLKIN"
 					(effects
@@ -2414,7 +2414,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 -43.18 0)
+				(at 0 -33.02 0)
 				(length 7.62)
 				(name "PLLFILT"
 					(effects
