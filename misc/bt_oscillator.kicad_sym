@@ -7,7 +7,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0.762 1.016 0)
+			(at 0.762 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15,7 +15,7 @@
 			)
 		)
 		(property "Value" "25Mhz,50ppm"
-			(at 14.986 1.016 0)
+			(at 14.986 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -88,6 +88,19 @@
 			)
 		)
 		(symbol "OSC;25Mhz;50ppm;3v3;SG3225CAN_0_1"
+			(polyline
+				(pts
+					(xy 6.35 -6.35) (xy 6.604 -6.35) (xy 6.604 -4.826) (xy 7.112 -4.826) (xy 7.112 -6.35) (xy 7.62 -6.35)
+					(xy 7.62 -4.826) (xy 8.128 -4.826) (xy 8.128 -6.35) (xy 8.382 -6.35)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(rectangle
 				(start 0 0)
 				(end 15.24 -15.24)

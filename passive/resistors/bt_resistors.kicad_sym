@@ -27,7 +27,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at -1.778 0 90)
+			(at -4.318 0 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45,7 +45,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 0 0 0)
+			(at -2.032 -6.604 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54,7 +54,7 @@
 			)
 		)
 		(property "MPN" "R;G;T1;S;P0603;NA"
-			(at 0 0 90)
+			(at 3.048 9.398 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63,7 +63,7 @@
 			)
 		)
 		(property "CPN" "BT00002-00000"
-			(at 0 0 90)
+			(at 3.302 -8.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)

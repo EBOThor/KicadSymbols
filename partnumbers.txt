@@ -2,6 +2,11 @@ Art:nr		type		footprint	library
 BT00xxx = passive
 BT00001-xxxxx	resistors	0805		bt_resistors
 BT00002-xxxxx	resistors	0603		bt_resistors
+BT00003-xxxxx	cap 50V MLCC	0805		bt_cap
+BT00004-xxxxx	cap 25V MLCC	0805		bt_cap
+BT00005-xxxxx	cap 16V MLCC	0805		bt_cap
+BT00006-xxxxx	cap 10V MLCC	0805		bt_cap
+
 ...
 BT01xxx = MCU/CPU
 BT01001-00001	ATSAME53J18A-MU	VQFN		bt_mcu
