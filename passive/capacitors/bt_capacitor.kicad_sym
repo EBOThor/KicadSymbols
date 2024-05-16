@@ -2,158 +2,7537 @@
 	(version 20231120)
 	(generator "kicad_symbol_editor")
 	(generator_version "8.0")
-	(symbol "C;C;0p5;0pf25;50V"
-		(pin_numbers hide)
-		(pin_names
-			(offset 0.254)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "C"
-			(at 0.635 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0p25"
-			(at 0.635 -2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 0.9652 -3.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor 50V 0805"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "C;M;0p5;0pf25;50V;S;0805"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CPN" "BT00003-120005"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" "cap capacitor"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "C_*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "C;C;0p5;0pf25;50V_0_1"
-			(polyline
-				(pts
-					(xy -2.032 -0.762) (xy 2.032 -0.762)
-				)
-				(stroke
-					(width 0.508)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.032 0.762) (xy 2.032 0.762)
-				)
-				(stroke
-					(width 0.508)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "C;C;0p5;0pf25;50V_1_1"
-			(pin passive line
-				(at 0 3.81 270)
-				(length 2.794)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -3.81 90)
-				(length 2.794)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-	)
+(symbol "C;M;0p5;0pf25;50V;S;0805" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 0.635 2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "0p5 50V" (id 1) (at 4.635 -2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "C;C;T1;S;P0805;NA" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "CPN" "BT00003BT00003-120005" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -2.778 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "C cap capacitor" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+        (property "ki_description" "Capacitor" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "C_*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "C;M;0p5;0pf25;50V;S;0805_0_1"
+    			(polyline 
+    				(pts
+    					(xy -2.032 -0.762) (xy 2.032 -0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(polyline
+    				(pts
+    					(xy -2.032 0.762) (xy 2.032 0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+         )
+       (symbol "C;M;0p5;0pf25;50V;S;0805_1_1"
+    			(pin passive line
+    				(at 0 3.81 270)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+         )
+    			(pin passive line
+    				(at 0 -3.81 90)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "2"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    )
+    )
+  )
+(symbol "C;M;0p75;0pf25;50V;S;0805" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 0.635 2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "0p75 50V" (id 1) (at 4.635 -2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "C;C;T1;S;P0805;NA" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "CPN" "BT00003BT00003-120007" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -2.778 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "C cap capacitor" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+        (property "ki_description" "Capacitor" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "C_*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "C;M;0p75;0pf25;50V;S;0805_0_1"
+    			(polyline 
+    				(pts
+    					(xy -2.032 -0.762) (xy 2.032 -0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(polyline
+    				(pts
+    					(xy -2.032 0.762) (xy 2.032 0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+         )
+       (symbol "C;M;0p75;0pf25;50V;S;0805_1_1"
+    			(pin passive line
+    				(at 0 3.81 270)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+         )
+    			(pin passive line
+    				(at 0 -3.81 90)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "2"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    )
+    )
+  )
+(symbol "C;M;1p;0pf25;50V;S;0805" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 0.635 2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "1p 50V" (id 1) (at 4.635 -2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "C;C;T1;S;P0805;NA" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "CPN" "BT00003BT00003-120010" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -2.778 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "C cap capacitor" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+        (property "ki_description" "Capacitor" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "C_*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "C;M;1p;0pf25;50V;S;0805_0_1"
+    			(polyline 
+    				(pts
+    					(xy -2.032 -0.762) (xy 2.032 -0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(polyline
+    				(pts
+    					(xy -2.032 0.762) (xy 2.032 0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+         )
+       (symbol "C;M;1p;0pf25;50V;S;0805_1_1"
+    			(pin passive line
+    				(at 0 3.81 270)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+         )
+    			(pin passive line
+    				(at 0 -3.81 90)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "2"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    )
+    )
+  )
+(symbol "C;M;1p1;0pf25;50V;S;0805" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 0.635 2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "1p1 50V" (id 1) (at 4.635 -2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "C;C;T1;S;P0805;NA" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "CPN" "BT00003BT00003-120011" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -2.778 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "C cap capacitor" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+        (property "ki_description" "Capacitor" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "C_*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "C;M;1p1;0pf25;50V;S;0805_0_1"
+    			(polyline 
+    				(pts
+    					(xy -2.032 -0.762) (xy 2.032 -0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(polyline
+    				(pts
+    					(xy -2.032 0.762) (xy 2.032 0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+         )
+       (symbol "C;M;1p1;0pf25;50V;S;0805_1_1"
+    			(pin passive line
+    				(at 0 3.81 270)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+         )
+    			(pin passive line
+    				(at 0 -3.81 90)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "2"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    )
+    )
+  )
+(symbol "C;M;1p3;0pf25;50V;S;0805" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 0.635 2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "1p3 50V" (id 1) (at 4.635 -2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "C;C;T1;S;P0805;NA" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "CPN" "BT00003BT00003-120013" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -2.778 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "C cap capacitor" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+        (property "ki_description" "Capacitor" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "C_*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "C;M;1p3;0pf25;50V;S;0805_0_1"
+    			(polyline 
+    				(pts
+    					(xy -2.032 -0.762) (xy 2.032 -0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(polyline
+    				(pts
+    					(xy -2.032 0.762) (xy 2.032 0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+         )
+       (symbol "C;M;1p3;0pf25;50V;S;0805_1_1"
+    			(pin passive line
+    				(at 0 3.81 270)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+         )
+    			(pin passive line
+    				(at 0 -3.81 90)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "2"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    )
+    )
+  )
+(symbol "C;M;1p5;0pf25;50V;S;0805" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 0.635 2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "1p5 50V" (id 1) (at 4.635 -2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "C;C;T1;S;P0805;NA" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "CPN" "BT00003BT00003-120015" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -2.778 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "C cap capacitor" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+        (property "ki_description" "Capacitor" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "C_*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "C;M;1p5;0pf25;50V;S;0805_0_1"
+    			(polyline 
+    				(pts
+    					(xy -2.032 -0.762) (xy 2.032 -0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(polyline
+    				(pts
+    					(xy -2.032 0.762) (xy 2.032 0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+         )
+       (symbol "C;M;1p5;0pf25;50V;S;0805_1_1"
+    			(pin passive line
+    				(at 0 3.81 270)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+         )
+    			(pin passive line
+    				(at 0 -3.81 90)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "2"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    )
+    )
+  )
+(symbol "C;M;1p8;0pf25;50V;S;0805" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 0.635 2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "1p8 50V" (id 1) (at 4.635 -2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "C;C;T1;S;P0805;NA" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "CPN" "BT00003BT00003-120018" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -2.778 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "C cap capacitor" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+        (property "ki_description" "Capacitor" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "C_*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "C;M;1p8;0pf25;50V;S;0805_0_1"
+    			(polyline 
+    				(pts
+    					(xy -2.032 -0.762) (xy 2.032 -0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(polyline
+    				(pts
+    					(xy -2.032 0.762) (xy 2.032 0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+         )
+       (symbol "C;M;1p8;0pf25;50V;S;0805_1_1"
+    			(pin passive line
+    				(at 0 3.81 270)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+         )
+    			(pin passive line
+    				(at 0 -3.81 90)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "2"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    )
+    )
+  )
+(symbol "C;M;2p;0pf25;50V;S;0805" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 0.635 2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "2p 50V" (id 1) (at 4.635 -2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "C;C;T1;S;P0805;NA" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "CPN" "BT00003BT00003-120020" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -2.778 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "C cap capacitor" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+        (property "ki_description" "Capacitor" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "C_*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "C;M;2p;0pf25;50V;S;0805_0_1"
+    			(polyline 
+    				(pts
+    					(xy -2.032 -0.762) (xy 2.032 -0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(polyline
+    				(pts
+    					(xy -2.032 0.762) (xy 2.032 0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+         )
+       (symbol "C;M;2p;0pf25;50V;S;0805_1_1"
+    			(pin passive line
+    				(at 0 3.81 270)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+         )
+    			(pin passive line
+    				(at 0 -3.81 90)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "2"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    )
+    )
+  )
+(symbol "C;M;2p2;0pf25;50V;S;0805" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 0.635 2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "2p2 50V" (id 1) (at 4.635 -2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "C;C;T1;S;P0805;NA" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "CPN" "BT00003BT00003-120022" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -2.778 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "C cap capacitor" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+        (property "ki_description" "Capacitor" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "C_*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "C;M;2p2;0pf25;50V;S;0805_0_1"
+    			(polyline 
+    				(pts
+    					(xy -2.032 -0.762) (xy 2.032 -0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(polyline
+    				(pts
+    					(xy -2.032 0.762) (xy 2.032 0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+         )
+       (symbol "C;M;2p2;0pf25;50V;S;0805_1_1"
+    			(pin passive line
+    				(at 0 3.81 270)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+         )
+    			(pin passive line
+    				(at 0 -3.81 90)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "2"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    )
+    )
+  )
+(symbol "C;M;2p5;0pf25;50V;S;0805" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 0.635 2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "2p5 50V" (id 1) (at 4.635 -2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "C;C;T1;S;P0805;NA" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "CPN" "BT00003BT00003-120025" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -2.778 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "C cap capacitor" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+        (property "ki_description" "Capacitor" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "C_*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "C;M;2p5;0pf25;50V;S;0805_0_1"
+    			(polyline 
+    				(pts
+    					(xy -2.032 -0.762) (xy 2.032 -0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(polyline
+    				(pts
+    					(xy -2.032 0.762) (xy 2.032 0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+         )
+       (symbol "C;M;2p5;0pf25;50V;S;0805_1_1"
+    			(pin passive line
+    				(at 0 3.81 270)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+         )
+    			(pin passive line
+    				(at 0 -3.81 90)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "2"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    )
+    )
+  )
+(symbol "C;M;2p7;0pf25;50V;S;0805" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 0.635 2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "2p7 50V" (id 1) (at 4.635 -2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "C;C;T1;S;P0805;NA" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "CPN" "BT00003BT00003-120027" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -2.778 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "C cap capacitor" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+        (property "ki_description" "Capacitor" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "C_*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "C;M;2p7;0pf25;50V;S;0805_0_1"
+    			(polyline 
+    				(pts
+    					(xy -2.032 -0.762) (xy 2.032 -0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(polyline
+    				(pts
+    					(xy -2.032 0.762) (xy 2.032 0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+         )
+       (symbol "C;M;2p7;0pf25;50V;S;0805_1_1"
+    			(pin passive line
+    				(at 0 3.81 270)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+         )
+    			(pin passive line
+    				(at 0 -3.81 90)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "2"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    )
+    )
+  )
+(symbol "C;M;3p;0pf25;50V;S;0805" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 0.635 2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "3p 50V" (id 1) (at 4.635 -2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "C;C;T1;S;P0805;NA" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "CPN" "BT00003BT00003-120030" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -2.778 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "C cap capacitor" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+        (property "ki_description" "Capacitor" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "C_*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "C;M;3p;0pf25;50V;S;0805_0_1"
+    			(polyline 
+    				(pts
+    					(xy -2.032 -0.762) (xy 2.032 -0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(polyline
+    				(pts
+    					(xy -2.032 0.762) (xy 2.032 0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+         )
+       (symbol "C;M;3p;0pf25;50V;S;0805_1_1"
+    			(pin passive line
+    				(at 0 3.81 270)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+         )
+    			(pin passive line
+    				(at 0 -3.81 90)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "2"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    )
+    )
+  )
+(symbol "C;M;3p3;0pf25;50V;S;0805" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 0.635 2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "3p3 50V" (id 1) (at 4.635 -2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "C;C;T1;S;P0805;NA" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "CPN" "BT00003BT00003-120033" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -2.778 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "C cap capacitor" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+        (property "ki_description" "Capacitor" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "C_*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "C;M;3p3;0pf25;50V;S;0805_0_1"
+    			(polyline 
+    				(pts
+    					(xy -2.032 -0.762) (xy 2.032 -0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(polyline
+    				(pts
+    					(xy -2.032 0.762) (xy 2.032 0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+         )
+       (symbol "C;M;3p3;0pf25;50V;S;0805_1_1"
+    			(pin passive line
+    				(at 0 3.81 270)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+         )
+    			(pin passive line
+    				(at 0 -3.81 90)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "2"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    )
+    )
+  )
+(symbol "C;M;3p6;0pf25;50V;S;0805" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 0.635 2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "3p6 50V" (id 1) (at 4.635 -2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "C;C;T1;S;P0805;NA" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "CPN" "BT00003BT00003-120036" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -2.778 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "C cap capacitor" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+        (property "ki_description" "Capacitor" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "C_*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "C;M;3p6;0pf25;50V;S;0805_0_1"
+    			(polyline 
+    				(pts
+    					(xy -2.032 -0.762) (xy 2.032 -0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(polyline
+    				(pts
+    					(xy -2.032 0.762) (xy 2.032 0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+         )
+       (symbol "C;M;3p6;0pf25;50V;S;0805_1_1"
+    			(pin passive line
+    				(at 0 3.81 270)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+         )
+    			(pin passive line
+    				(at 0 -3.81 90)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "2"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    )
+    )
+  )
+(symbol "C;M;4p;0pf25;50V;S;0805" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 0.635 2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "4p 50V" (id 1) (at 4.635 -2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "C;C;T1;S;P0805;NA" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "CPN" "BT00003-120040" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -2.778 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "C cap capacitor" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+        (property "ki_description" "Capacitor" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "C_*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "C;M;4p;0pf25;50V;S;0805_0_1"
+    			(polyline 
+    				(pts
+    					(xy -2.032 -0.762) (xy 2.032 -0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(polyline
+    				(pts
+    					(xy -2.032 0.762) (xy 2.032 0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+         )
+       (symbol "C;M;4p;0pf25;50V;S;0805_1_1"
+    			(pin passive line
+    				(at 0 3.81 270)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+         )
+    			(pin passive line
+    				(at 0 -3.81 90)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "2"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    )
+    )
+  )
+(symbol "C;M;4p3;0pf25;50V;S;0805" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 0.635 2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "4p3 50V" (id 1) (at 4.635 -2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "C;C;T1;S;P0805;NA" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "CPN" "BT00003BT00003-120043" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -2.778 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "C cap capacitor" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+        (property "ki_description" "Capacitor" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "C_*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "C;M;4p3;0pf25;50V;S;0805_0_1"
+    			(polyline 
+    				(pts
+    					(xy -2.032 -0.762) (xy 2.032 -0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(polyline
+    				(pts
+    					(xy -2.032 0.762) (xy 2.032 0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+         )
+       (symbol "C;M;4p3;0pf25;50V;S;0805_1_1"
+    			(pin passive line
+    				(at 0 3.81 270)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+         )
+    			(pin passive line
+    				(at 0 -3.81 90)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "2"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    )
+    )
+  )
+(symbol "C;M;4p7;0pf25;50V;S;0805" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 0.635 2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "4p7 50V" (id 1) (at 4.635 -2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "C;C;T1;S;P0805;NA" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "CPN" "BT00003BT00003-120047" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -2.778 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "C cap capacitor" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+        (property "ki_description" "Capacitor" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "C_*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "C;M;4p7;0pf25;50V;S;0805_0_1"
+    			(polyline 
+    				(pts
+    					(xy -2.032 -0.762) (xy 2.032 -0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(polyline
+    				(pts
+    					(xy -2.032 0.762) (xy 2.032 0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+         )
+       (symbol "C;M;4p7;0pf25;50V;S;0805_1_1"
+    			(pin passive line
+    				(at 0 3.81 270)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+         )
+    			(pin passive line
+    				(at 0 -3.81 90)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "2"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    )
+    )
+  )
+(symbol "C;M;5p;0pf25;50V;S;0805" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 0.635 2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "5p 50V" (id 1) (at 4.635 -2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "C;C;T1;S;P0805;NA" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "CPN" "BT00003BT00003-120050" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -2.778 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "C cap capacitor" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+        (property "ki_description" "Capacitor" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "C_*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "C;M;5p;0pf25;50V;S;0805_0_1"
+    			(polyline 
+    				(pts
+    					(xy -2.032 -0.762) (xy 2.032 -0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(polyline
+    				(pts
+    					(xy -2.032 0.762) (xy 2.032 0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+         )
+       (symbol "C;M;5p;0pf25;50V;S;0805_1_1"
+    			(pin passive line
+    				(at 0 3.81 270)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+         )
+    			(pin passive line
+    				(at 0 -3.81 90)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "2"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    )
+    )
+  )
+(symbol "C;M;5p1;0pf5;50V;S;0805" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 0.635 2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "5p1 50V" (id 1) (at 4.635 -2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "C;C;T1;S;P0805;NA" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "CPN" "BT00003BT00003-120051" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -2.778 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "C cap capacitor" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+        (property "ki_description" "Capacitor" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "C_*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "C;M;5p1;0pf5;50V;S;0805_0_1"
+    			(polyline 
+    				(pts
+    					(xy -2.032 -0.762) (xy 2.032 -0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(polyline
+    				(pts
+    					(xy -2.032 0.762) (xy 2.032 0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+         )
+       (symbol "C;M;5p1;0pf5;50V;S;0805_1_1"
+    			(pin passive line
+    				(at 0 3.81 270)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+         )
+    			(pin passive line
+    				(at 0 -3.81 90)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "2"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    )
+    )
+  )
+(symbol "C;M;6p;0pf5;50V;S;0805" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 0.635 2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "6p 50V" (id 1) (at 4.635 -2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "C;C;T1;S;P0805;NA" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "CPN" "BT00003BT00003-120060" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -2.778 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "C cap capacitor" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+        (property "ki_description" "Capacitor" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "C_*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "C;M;6p;0pf5;50V;S;0805_0_1"
+    			(polyline 
+    				(pts
+    					(xy -2.032 -0.762) (xy 2.032 -0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(polyline
+    				(pts
+    					(xy -2.032 0.762) (xy 2.032 0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+         )
+       (symbol "C;M;6p;0pf5;50V;S;0805_1_1"
+    			(pin passive line
+    				(at 0 3.81 270)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+         )
+    			(pin passive line
+    				(at 0 -3.81 90)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "2"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    )
+    )
+  )
+(symbol "C;M;6p2;0pf5;50V;S;0805" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 0.635 2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "6p2 50V" (id 1) (at 4.635 -2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "C;C;T1;S;P0805;NA" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "CPN" "BT00003BT00003-120062" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -2.778 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "C cap capacitor" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+        (property "ki_description" "Capacitor" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "C_*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "C;M;6p2;0pf5;50V;S;0805_0_1"
+    			(polyline 
+    				(pts
+    					(xy -2.032 -0.762) (xy 2.032 -0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(polyline
+    				(pts
+    					(xy -2.032 0.762) (xy 2.032 0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+         )
+       (symbol "C;M;6p2;0pf5;50V;S;0805_1_1"
+    			(pin passive line
+    				(at 0 3.81 270)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+         )
+    			(pin passive line
+    				(at 0 -3.81 90)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "2"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    )
+    )
+  )
+(symbol "C;M;6p8;0pf5;50V;S;0805" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 0.635 2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "6p8 50V" (id 1) (at 4.635 -2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "C;C;T1;S;P0805;NA" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "CPN" "BT00003BT00003-120068" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -2.778 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "C cap capacitor" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+        (property "ki_description" "Capacitor" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "C_*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "C;M;6p8;0pf5;50V;S;0805_0_1"
+    			(polyline 
+    				(pts
+    					(xy -2.032 -0.762) (xy 2.032 -0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(polyline
+    				(pts
+    					(xy -2.032 0.762) (xy 2.032 0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+         )
+       (symbol "C;M;6p8;0pf5;50V;S;0805_1_1"
+    			(pin passive line
+    				(at 0 3.81 270)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+         )
+    			(pin passive line
+    				(at 0 -3.81 90)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "2"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    )
+    )
+  )
+(symbol "C;M;7p;0pf5;50V;S;0805" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 0.635 2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "7p 50V" (id 1) (at 4.635 -2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "C;C;T1;S;P0805;NA" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "CPN" "BT00003BT00003-120070" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -2.778 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "C cap capacitor" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+        (property "ki_description" "Capacitor" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "C_*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "C;M;7p;0pf5;50V;S;0805_0_1"
+    			(polyline 
+    				(pts
+    					(xy -2.032 -0.762) (xy 2.032 -0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(polyline
+    				(pts
+    					(xy -2.032 0.762) (xy 2.032 0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+         )
+       (symbol "C;M;7p;0pf5;50V;S;0805_1_1"
+    			(pin passive line
+    				(at 0 3.81 270)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+         )
+    			(pin passive line
+    				(at 0 -3.81 90)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "2"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    )
+    )
+  )
+(symbol "C;M;7p5;0pf5;50V;S;0805" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 0.635 2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "7p5 50V" (id 1) (at 4.635 -2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "C;C;T1;S;P0805;NA" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "CPN" "BT00003BT00003-120075" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -2.778 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "C cap capacitor" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+        (property "ki_description" "Capacitor" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "C_*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "C;M;7p5;0pf5;50V;S;0805_0_1"
+    			(polyline 
+    				(pts
+    					(xy -2.032 -0.762) (xy 2.032 -0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(polyline
+    				(pts
+    					(xy -2.032 0.762) (xy 2.032 0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+         )
+       (symbol "C;M;7p5;0pf5;50V;S;0805_1_1"
+    			(pin passive line
+    				(at 0 3.81 270)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+         )
+    			(pin passive line
+    				(at 0 -3.81 90)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "2"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    )
+    )
+  )
+(symbol "C;M;8p;0pf5;50V;S;0805" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 0.635 2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "8p 50V" (id 1) (at 4.635 -2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "C;C;T1;S;P0805;NA" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "CPN" "BT00003BT00003-120080" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -2.778 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "C cap capacitor" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+        (property "ki_description" "Capacitor" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "C_*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "C;M;8p;0pf5;50V;S;0805_0_1"
+    			(polyline 
+    				(pts
+    					(xy -2.032 -0.762) (xy 2.032 -0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(polyline
+    				(pts
+    					(xy -2.032 0.762) (xy 2.032 0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+         )
+       (symbol "C;M;8p;0pf5;50V;S;0805_1_1"
+    			(pin passive line
+    				(at 0 3.81 270)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+         )
+    			(pin passive line
+    				(at 0 -3.81 90)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "2"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    )
+    )
+  )
+(symbol "C;M;8p2;0pf5;50V;S;0805" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 0.635 2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "8p2 50V" (id 1) (at 4.635 -2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "C;C;T1;S;P0805;NA" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "CPN" "BT00003BT00003-120082" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -2.778 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "C cap capacitor" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+        (property "ki_description" "Capacitor" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "C_*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "C;M;8p2;0pf5;50V;S;0805_0_1"
+    			(polyline 
+    				(pts
+    					(xy -2.032 -0.762) (xy 2.032 -0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(polyline
+    				(pts
+    					(xy -2.032 0.762) (xy 2.032 0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+         )
+       (symbol "C;M;8p2;0pf5;50V;S;0805_1_1"
+    			(pin passive line
+    				(at 0 3.81 270)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+         )
+    			(pin passive line
+    				(at 0 -3.81 90)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "2"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    )
+    )
+  )
+(symbol "C;M;9p;0pf5;50V;S;0805" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 0.635 2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "9p 50V" (id 1) (at 4.635 -2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "C;C;T1;S;P0805;NA" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "CPN" "BT00003BT00003-120090" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -2.778 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "C cap capacitor" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+        (property "ki_description" "Capacitor" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "C_*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "C;M;9p;0pf5;50V;S;0805_0_1"
+    			(polyline 
+    				(pts
+    					(xy -2.032 -0.762) (xy 2.032 -0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(polyline
+    				(pts
+    					(xy -2.032 0.762) (xy 2.032 0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+         )
+       (symbol "C;M;9p;0pf5;50V;S;0805_1_1"
+    			(pin passive line
+    				(at 0 3.81 270)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+         )
+    			(pin passive line
+    				(at 0 -3.81 90)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "2"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    )
+    )
+  )
+(symbol "C;M;9p1;0pf5;50V;S;0805" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 0.635 2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "9p1 50V" (id 1) (at 4.635 -2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "C;C;T1;S;P0805;NA" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "CPN" "BT00003BT00003-120092" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -2.778 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "C cap capacitor" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+        (property "ki_description" "Capacitor" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "C_*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "C;M;9p1;0pf5;50V;S;0805_0_1"
+    			(polyline 
+    				(pts
+    					(xy -2.032 -0.762) (xy 2.032 -0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(polyline
+    				(pts
+    					(xy -2.032 0.762) (xy 2.032 0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+         )
+       (symbol "C;M;9p1;0pf5;50V;S;0805_1_1"
+    			(pin passive line
+    				(at 0 3.81 270)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+         )
+    			(pin passive line
+    				(at 0 -3.81 90)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "2"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    )
+    )
+  )
+(symbol "C;M;10p;5p;50V;S;0805" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 0.635 2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "10p 50V" (id 1) (at 4.635 -2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "C;C;T1;S;P0805;NA" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "CPN" "BT00003BT00003-120100" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -2.778 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "C cap capacitor" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+        (property "ki_description" "Capacitor" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "C_*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "C;M;10p;5p;50V;S;0805_0_1"
+    			(polyline 
+    				(pts
+    					(xy -2.032 -0.762) (xy 2.032 -0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(polyline
+    				(pts
+    					(xy -2.032 0.762) (xy 2.032 0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+         )
+       (symbol "C;M;10p;5p;50V;S;0805_1_1"
+    			(pin passive line
+    				(at 0 3.81 270)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+         )
+    			(pin passive line
+    				(at 0 -3.81 90)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "2"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    )
+    )
+  )
+(symbol "C;M;11p;5p;50V;S;0805" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 0.635 2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "11p 50V" (id 1) (at 4.635 -2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "C;C;T1;S;P0805;NA" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "CPN" "BT00003BT00003-120110" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -2.778 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "C cap capacitor" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+        (property "ki_description" "Capacitor" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "C_*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "C;M;11p;5p;50V;S;0805_0_1"
+    			(polyline 
+    				(pts
+    					(xy -2.032 -0.762) (xy 2.032 -0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(polyline
+    				(pts
+    					(xy -2.032 0.762) (xy 2.032 0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+         )
+       (symbol "C;M;11p;5p;50V;S;0805_1_1"
+    			(pin passive line
+    				(at 0 3.81 270)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+         )
+    			(pin passive line
+    				(at 0 -3.81 90)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "2"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    )
+    )
+  )
+(symbol "C;M;12p;5p;50V;S;0805" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 0.635 2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "12p 50V" (id 1) (at 4.635 -2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "C;C;T1;S;P0805;NA" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "CPN" "BT00003BT00003-120120" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -2.778 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "C cap capacitor" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+        (property "ki_description" "Capacitor" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "C_*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "C;M;12p;5p;50V;S;0805_0_1"
+    			(polyline 
+    				(pts
+    					(xy -2.032 -0.762) (xy 2.032 -0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(polyline
+    				(pts
+    					(xy -2.032 0.762) (xy 2.032 0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+         )
+       (symbol "C;M;12p;5p;50V;S;0805_1_1"
+    			(pin passive line
+    				(at 0 3.81 270)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+         )
+    			(pin passive line
+    				(at 0 -3.81 90)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "2"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    )
+    )
+  )
+(symbol "C;M;15p;5p;50V;S;0805" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 0.635 2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "15p 50V" (id 1) (at 4.635 -2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "C;C;T1;S;P0805;NA" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "CPN" "BT00003-120150" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -2.778 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "C cap capacitor" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+        (property "ki_description" "Capacitor" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "C_*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "C;M;15p;5p;50V;S;0805_0_1"
+    			(polyline 
+    				(pts
+    					(xy -2.032 -0.762) (xy 2.032 -0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(polyline
+    				(pts
+    					(xy -2.032 0.762) (xy 2.032 0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+         )
+       (symbol "C;M;15p;5p;50V;S;0805_1_1"
+    			(pin passive line
+    				(at 0 3.81 270)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+         )
+    			(pin passive line
+    				(at 0 -3.81 90)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "2"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    )
+    )
+  )
+(symbol "C;M;16p;5p;50V;S;0805" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 0.635 2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "16p 50V" (id 1) (at 4.635 -2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "C;C;T1;S;P0805;NA" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "CPN" "BT00003-120160" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -2.778 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "C cap capacitor" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+        (property "ki_description" "Capacitor" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "C_*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "C;M;16p;5p;50V;S;0805_0_1"
+    			(polyline 
+    				(pts
+    					(xy -2.032 -0.762) (xy 2.032 -0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(polyline
+    				(pts
+    					(xy -2.032 0.762) (xy 2.032 0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+         )
+       (symbol "C;M;16p;5p;50V;S;0805_1_1"
+    			(pin passive line
+    				(at 0 3.81 270)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+         )
+    			(pin passive line
+    				(at 0 -3.81 90)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "2"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    )
+    )
+  )
+(symbol "C;M;18p;5p;50V;S;0805" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 0.635 2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "18p 50V" (id 1) (at 4.635 -2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "C;C;T1;S;P0805;NA" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "CPN" "BT00003-120180" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -2.778 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "C cap capacitor" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+        (property "ki_description" "Capacitor" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "C_*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "C;M;18p;5p;50V;S;0805_0_1"
+    			(polyline 
+    				(pts
+    					(xy -2.032 -0.762) (xy 2.032 -0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(polyline
+    				(pts
+    					(xy -2.032 0.762) (xy 2.032 0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+         )
+       (symbol "C;M;18p;5p;50V;S;0805_1_1"
+    			(pin passive line
+    				(at 0 3.81 270)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+         )
+    			(pin passive line
+    				(at 0 -3.81 90)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "2"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    )
+    )
+  )
+(symbol "C;M;20p;5p;50V;S;0805" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 0.635 2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "20p 50V" (id 1) (at 4.635 -2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "C;C;T1;S;P0805;NA" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "CPN" "BT00003-120200" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -2.778 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "C cap capacitor" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+        (property "ki_description" "Capacitor" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "C_*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "C;M;20p;5p;50V;S;0805_0_1"
+    			(polyline 
+    				(pts
+    					(xy -2.032 -0.762) (xy 2.032 -0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(polyline
+    				(pts
+    					(xy -2.032 0.762) (xy 2.032 0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+         )
+       (symbol "C;M;20p;5p;50V;S;0805_1_1"
+    			(pin passive line
+    				(at 0 3.81 270)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+         )
+    			(pin passive line
+    				(at 0 -3.81 90)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "2"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    )
+    )
+  )
+(symbol "C;M;22p;5p;50V;S;0805" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 0.635 2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "22p 50V" (id 1) (at 4.635 -2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "C;C;T1;S;P0805;NA" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "CPN" "BT00003-120220" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -2.778 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "C cap capacitor" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+        (property "ki_description" "Capacitor" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "C_*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "C;M;22p;5p;50V;S;0805_0_1"
+    			(polyline 
+    				(pts
+    					(xy -2.032 -0.762) (xy 2.032 -0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(polyline
+    				(pts
+    					(xy -2.032 0.762) (xy 2.032 0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+         )
+       (symbol "C;M;22p;5p;50V;S;0805_1_1"
+    			(pin passive line
+    				(at 0 3.81 270)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+         )
+    			(pin passive line
+    				(at 0 -3.81 90)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "2"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    )
+    )
+  )
+(symbol "C;M;27p;5p;50V;S;0805" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 0.635 2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "27p 50V" (id 1) (at 4.635 -2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "C;C;T1;S;P0805;NA" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "CPN" "BT00003-120270" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -2.778 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "C cap capacitor" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+        (property "ki_description" "Capacitor" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "C_*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "C;M;27p;5p;50V;S;0805_0_1"
+    			(polyline 
+    				(pts
+    					(xy -2.032 -0.762) (xy 2.032 -0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(polyline
+    				(pts
+    					(xy -2.032 0.762) (xy 2.032 0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+         )
+       (symbol "C;M;27p;5p;50V;S;0805_1_1"
+    			(pin passive line
+    				(at 0 3.81 270)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+         )
+    			(pin passive line
+    				(at 0 -3.81 90)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "2"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    )
+    )
+  )
+(symbol "C;M;30p;5p;50V;S;0805" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 0.635 2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "30p 50V" (id 1) (at 4.635 -2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "C;C;T1;S;P0805;NA" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "CPN" "BT00003-120300" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -2.778 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "C cap capacitor" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+        (property "ki_description" "Capacitor" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "C_*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "C;M;30p;5p;50V;S;0805_0_1"
+    			(polyline 
+    				(pts
+    					(xy -2.032 -0.762) (xy 2.032 -0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(polyline
+    				(pts
+    					(xy -2.032 0.762) (xy 2.032 0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+         )
+       (symbol "C;M;30p;5p;50V;S;0805_1_1"
+    			(pin passive line
+    				(at 0 3.81 270)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+         )
+    			(pin passive line
+    				(at 0 -3.81 90)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "2"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    )
+    )
+  )
+(symbol "C;M;33p;5p;50V;S;0805" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 0.635 2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "33p 50V" (id 1) (at 4.635 -2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "C;C;T1;S;P0805;NA" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "CPN" "BT00003-120330" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -2.778 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "C cap capacitor" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+        (property "ki_description" "Capacitor" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "C_*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "C;M;33p;5p;50V;S;0805_0_1"
+    			(polyline 
+    				(pts
+    					(xy -2.032 -0.762) (xy 2.032 -0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(polyline
+    				(pts
+    					(xy -2.032 0.762) (xy 2.032 0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+         )
+       (symbol "C;M;33p;5p;50V;S;0805_1_1"
+    			(pin passive line
+    				(at 0 3.81 270)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+         )
+    			(pin passive line
+    				(at 0 -3.81 90)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "2"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    )
+    )
+  )
+(symbol "C;M;36p;5p;50V;S;0805" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 0.635 2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "36p 50V" (id 1) (at 4.635 -2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "C;C;T1;S;P0805;NA" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "CPN" "BT00003-120360" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -2.778 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "C cap capacitor" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+        (property "ki_description" "Capacitor" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "C_*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "C;M;36p;5p;50V;S;0805_0_1"
+    			(polyline 
+    				(pts
+    					(xy -2.032 -0.762) (xy 2.032 -0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(polyline
+    				(pts
+    					(xy -2.032 0.762) (xy 2.032 0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+         )
+       (symbol "C;M;36p;5p;50V;S;0805_1_1"
+    			(pin passive line
+    				(at 0 3.81 270)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+         )
+    			(pin passive line
+    				(at 0 -3.81 90)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "2"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    )
+    )
+  )
+(symbol "C;M;39p;5p;50V;S;0805" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 0.635 2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "39p 50V" (id 1) (at 4.635 -2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "C;C;T1;S;P0805;NA" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "CPN" "BT00003-120390" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -2.778 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "C cap capacitor" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+        (property "ki_description" "Capacitor" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "C_*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "C;M;39p;5p;50V;S;0805_0_1"
+    			(polyline 
+    				(pts
+    					(xy -2.032 -0.762) (xy 2.032 -0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(polyline
+    				(pts
+    					(xy -2.032 0.762) (xy 2.032 0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+         )
+       (symbol "C;M;39p;5p;50V;S;0805_1_1"
+    			(pin passive line
+    				(at 0 3.81 270)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+         )
+    			(pin passive line
+    				(at 0 -3.81 90)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "2"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    )
+    )
+  )
+(symbol "C;M;47p;5p;50V;S;0805" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 0.635 2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "47p 50V" (id 1) (at 4.635 -2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "C;C;T1;S;P0805;NA" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "CPN" "BT00003-120470" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -2.778 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "C cap capacitor" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+        (property "ki_description" "Capacitor" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "C_*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "C;M;47p;5p;50V;S;0805_0_1"
+    			(polyline 
+    				(pts
+    					(xy -2.032 -0.762) (xy 2.032 -0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(polyline
+    				(pts
+    					(xy -2.032 0.762) (xy 2.032 0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+         )
+       (symbol "C;M;47p;5p;50V;S;0805_1_1"
+    			(pin passive line
+    				(at 0 3.81 270)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+         )
+    			(pin passive line
+    				(at 0 -3.81 90)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "2"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    )
+    )
+  )
+(symbol "C;M;51p;5p;50V;S;0805" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 0.635 2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "51p 50V" (id 1) (at 4.635 -2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "C;C;T1;S;P0805;NA" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "CPN" "BT00003-120510" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -2.778 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "C cap capacitor" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+        (property "ki_description" "Capacitor" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "C_*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "C;M;51p;5p;50V;S;0805_0_1"
+    			(polyline 
+    				(pts
+    					(xy -2.032 -0.762) (xy 2.032 -0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(polyline
+    				(pts
+    					(xy -2.032 0.762) (xy 2.032 0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+         )
+       (symbol "C;M;51p;5p;50V;S;0805_1_1"
+    			(pin passive line
+    				(at 0 3.81 270)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+         )
+    			(pin passive line
+    				(at 0 -3.81 90)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "2"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    )
+    )
+  )
+(symbol "C;M;56p;5p;50V;S;0805" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 0.635 2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "56p 50V" (id 1) (at 4.635 -2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "C;C;T1;S;P0805;NA" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "CPN" "BT00003-120560" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -2.778 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "C cap capacitor" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+        (property "ki_description" "Capacitor" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "C_*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "C;M;56p;5p;50V;S;0805_0_1"
+    			(polyline 
+    				(pts
+    					(xy -2.032 -0.762) (xy 2.032 -0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(polyline
+    				(pts
+    					(xy -2.032 0.762) (xy 2.032 0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+         )
+       (symbol "C;M;56p;5p;50V;S;0805_1_1"
+    			(pin passive line
+    				(at 0 3.81 270)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+         )
+    			(pin passive line
+    				(at 0 -3.81 90)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "2"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    )
+    )
+  )
+(symbol "C;M;62p;5p;50V;S;0805" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 0.635 2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "62p 50V" (id 1) (at 4.635 -2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "C;C;T1;S;P0805;NA" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "CPN" "BT00003-120620" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -2.778 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "C cap capacitor" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+        (property "ki_description" "Capacitor" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "C_*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "C;M;62p;5p;50V;S;0805_0_1"
+    			(polyline 
+    				(pts
+    					(xy -2.032 -0.762) (xy 2.032 -0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(polyline
+    				(pts
+    					(xy -2.032 0.762) (xy 2.032 0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+         )
+       (symbol "C;M;62p;5p;50V;S;0805_1_1"
+    			(pin passive line
+    				(at 0 3.81 270)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+         )
+    			(pin passive line
+    				(at 0 -3.81 90)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "2"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    )
+    )
+  )
+(symbol "C;M;68p;5p;50V;S;0805" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 0.635 2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "68p 50V" (id 1) (at 4.635 -2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "C;C;T1;S;P0805;NA" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "CPN" "BT00003-120680" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -2.778 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "C cap capacitor" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+        (property "ki_description" "Capacitor" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "C_*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "C;M;68p;5p;50V;S;0805_0_1"
+    			(polyline 
+    				(pts
+    					(xy -2.032 -0.762) (xy 2.032 -0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(polyline
+    				(pts
+    					(xy -2.032 0.762) (xy 2.032 0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+         )
+       (symbol "C;M;68p;5p;50V;S;0805_1_1"
+    			(pin passive line
+    				(at 0 3.81 270)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+         )
+    			(pin passive line
+    				(at 0 -3.81 90)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "2"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    )
+    )
+  )
+(symbol "C;M;75p;5p;50V;S;0805" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 0.635 2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "75p 50V" (id 1) (at 4.635 -2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "C;C;T1;S;P0805;NA" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "CPN" "BT00003-120750" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -2.778 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "C cap capacitor" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+        (property "ki_description" "Capacitor" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "C_*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "C;M;75p;5p;50V;S;0805_0_1"
+    			(polyline 
+    				(pts
+    					(xy -2.032 -0.762) (xy 2.032 -0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(polyline
+    				(pts
+    					(xy -2.032 0.762) (xy 2.032 0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+         )
+       (symbol "C;M;75p;5p;50V;S;0805_1_1"
+    			(pin passive line
+    				(at 0 3.81 270)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+         )
+    			(pin passive line
+    				(at 0 -3.81 90)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "2"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    )
+    )
+  )
+(symbol "C;M;82p;5p;50V;S;0805" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 0.635 2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "82p 50V" (id 1) (at 4.635 -2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "C;C;T1;S;P0805;NA" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "CPN" "BT00003-120820" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -2.778 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "C cap capacitor" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+        (property "ki_description" "Capacitor" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "C_*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "C;M;82p;5p;50V;S;0805_0_1"
+    			(polyline 
+    				(pts
+    					(xy -2.032 -0.762) (xy 2.032 -0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(polyline
+    				(pts
+    					(xy -2.032 0.762) (xy 2.032 0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+         )
+       (symbol "C;M;82p;5p;50V;S;0805_1_1"
+    			(pin passive line
+    				(at 0 3.81 270)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+         )
+    			(pin passive line
+    				(at 0 -3.81 90)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "2"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    )
+    )
+  )
+(symbol "C;M;91p;5p;50V;S;0805" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 0.635 2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "91p 50V" (id 1) (at 4.635 -2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "C;C;T1;S;P0805;NA" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "CPN" "BT00003-120910" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -2.778 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "C cap capacitor" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+        (property "ki_description" "Capacitor" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "C_*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "C;M;91p;5p;50V;S;0805_0_1"
+    			(polyline 
+    				(pts
+    					(xy -2.032 -0.762) (xy 2.032 -0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(polyline
+    				(pts
+    					(xy -2.032 0.762) (xy 2.032 0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+         )
+       (symbol "C;M;91p;5p;50V;S;0805_1_1"
+    			(pin passive line
+    				(at 0 3.81 270)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+         )
+    			(pin passive line
+    				(at 0 -3.81 90)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "2"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    )
+    )
+  )
+(symbol "C;M;100p;5p;50V;S;0805" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 0.635 2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "100p 50V" (id 1) (at 4.635 -2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "C;C;T1;S;P0805;NA" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "CPN" "BT00003-121000" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -2.778 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "C cap capacitor" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+        (property "ki_description" "Capacitor" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "C_*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "C;M;100p;5p;50V;S;0805_0_1"
+    			(polyline 
+    				(pts
+    					(xy -2.032 -0.762) (xy 2.032 -0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(polyline
+    				(pts
+    					(xy -2.032 0.762) (xy 2.032 0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+         )
+       (symbol "C;M;100p;5p;50V;S;0805_1_1"
+    			(pin passive line
+    				(at 0 3.81 270)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+         )
+    			(pin passive line
+    				(at 0 -3.81 90)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "2"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    )
+    )
+  )
+(symbol "C;M;110p;5p;50V;S;0805" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 0.635 2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "110p 50V" (id 1) (at 4.635 -2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "C;C;T1;S;P0805;NA" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "CPN" "BT00003-121100" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -2.778 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "C cap capacitor" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+        (property "ki_description" "Capacitor" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "C_*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "C;M;110p;5p;50V;S;0805_0_1"
+    			(polyline 
+    				(pts
+    					(xy -2.032 -0.762) (xy 2.032 -0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(polyline
+    				(pts
+    					(xy -2.032 0.762) (xy 2.032 0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+         )
+       (symbol "C;M;110p;5p;50V;S;0805_1_1"
+    			(pin passive line
+    				(at 0 3.81 270)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+         )
+    			(pin passive line
+    				(at 0 -3.81 90)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "2"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    )
+    )
+  )
+(symbol "C;M;120p;5p;50V;S;0805" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 0.635 2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "120p 50V" (id 1) (at 4.635 -2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "C;C;T1;S;P0805;NA" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "CPN" "BT00003-121200" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -2.778 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "C cap capacitor" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+        (property "ki_description" "Capacitor" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "C_*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "C;M;120p;5p;50V;S;0805_0_1"
+    			(polyline 
+    				(pts
+    					(xy -2.032 -0.762) (xy 2.032 -0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(polyline
+    				(pts
+    					(xy -2.032 0.762) (xy 2.032 0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+         )
+       (symbol "C;M;120p;5p;50V;S;0805_1_1"
+    			(pin passive line
+    				(at 0 3.81 270)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+         )
+    			(pin passive line
+    				(at 0 -3.81 90)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "2"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    )
+    )
+  )
+(symbol "C;M;150p;5p;50V;S;0805" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 0.635 2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "150p 50V" (id 1) (at 4.635 -2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "C;C;T1;S;P0805;NA" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "CPN" "BT00003-121500" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -2.778 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "C cap capacitor" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+        (property "ki_description" "Capacitor" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "C_*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "C;M;150p;5p;50V;S;0805_0_1"
+    			(polyline 
+    				(pts
+    					(xy -2.032 -0.762) (xy 2.032 -0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(polyline
+    				(pts
+    					(xy -2.032 0.762) (xy 2.032 0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+         )
+       (symbol "C;M;150p;5p;50V;S;0805_1_1"
+    			(pin passive line
+    				(at 0 3.81 270)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+         )
+    			(pin passive line
+    				(at 0 -3.81 90)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "2"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    )
+    )
+  )
+(symbol "C;M;160p;5p;50V;S;0805" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 0.635 2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "160p 50V" (id 1) (at 4.635 -2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "C;C;T1;S;P0805;NA" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "CPN" "BT00003-121600" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -2.778 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "C cap capacitor" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+        (property "ki_description" "Capacitor" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "C_*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "C;M;160p;5p;50V;S;0805_0_1"
+    			(polyline 
+    				(pts
+    					(xy -2.032 -0.762) (xy 2.032 -0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(polyline
+    				(pts
+    					(xy -2.032 0.762) (xy 2.032 0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+         )
+       (symbol "C;M;160p;5p;50V;S;0805_1_1"
+    			(pin passive line
+    				(at 0 3.81 270)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+         )
+    			(pin passive line
+    				(at 0 -3.81 90)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "2"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    )
+    )
+  )
+(symbol "C;M;180p;5p;50V;S;0805" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 0.635 2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "180p 50V" (id 1) (at 4.635 -2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "C;C;T1;S;P0805;NA" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "CPN" "BT00003-121800" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -2.778 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "C cap capacitor" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+        (property "ki_description" "Capacitor" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "C_*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "C;M;180p;5p;50V;S;0805_0_1"
+    			(polyline 
+    				(pts
+    					(xy -2.032 -0.762) (xy 2.032 -0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(polyline
+    				(pts
+    					(xy -2.032 0.762) (xy 2.032 0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+         )
+       (symbol "C;M;180p;5p;50V;S;0805_1_1"
+    			(pin passive line
+    				(at 0 3.81 270)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+         )
+    			(pin passive line
+    				(at 0 -3.81 90)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "2"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    )
+    )
+  )
+(symbol "C;M;200p;5p;50V;S;0805" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 0.635 2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "200p 50V" (id 1) (at 4.635 -2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "C;C;T1;S;P0805;NA" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "CPN" "BT00003-122000" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -2.778 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "C cap capacitor" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+        (property "ki_description" "Capacitor" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "C_*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "C;M;200p;5p;50V;S;0805_0_1"
+    			(polyline 
+    				(pts
+    					(xy -2.032 -0.762) (xy 2.032 -0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(polyline
+    				(pts
+    					(xy -2.032 0.762) (xy 2.032 0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+         )
+       (symbol "C;M;200p;5p;50V;S;0805_1_1"
+    			(pin passive line
+    				(at 0 3.81 270)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+         )
+    			(pin passive line
+    				(at 0 -3.81 90)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "2"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    )
+    )
+  )
+(symbol "C;M;220p;10p;50V;S;0805" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 0.635 2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "220p 50V" (id 1) (at 4.635 -2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "C;C;T1;S;P0805;NA" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "CPN" "BT00003-122200" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -2.778 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "C cap capacitor" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+        (property "ki_description" "Capacitor" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "C_*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "C;M;220p;10p;50V;S;0805_0_1"
+    			(polyline 
+    				(pts
+    					(xy -2.032 -0.762) (xy 2.032 -0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(polyline
+    				(pts
+    					(xy -2.032 0.762) (xy 2.032 0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+         )
+       (symbol "C;M;220p;10p;50V;S;0805_1_1"
+    			(pin passive line
+    				(at 0 3.81 270)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+         )
+    			(pin passive line
+    				(at 0 -3.81 90)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "2"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    )
+    )
+  )
+(symbol "C;M;330p;10p;50V;S;0805" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 0.635 2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "330p 50V" (id 1) (at 4.635 -2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "C;C;T1;S;P0805;NA" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "CPN" "BT00003-123300" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -2.778 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "C cap capacitor" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+        (property "ki_description" "Capacitor" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "C_*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "C;M;330p;10p;50V;S;0805_0_1"
+    			(polyline 
+    				(pts
+    					(xy -2.032 -0.762) (xy 2.032 -0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(polyline
+    				(pts
+    					(xy -2.032 0.762) (xy 2.032 0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+         )
+       (symbol "C;M;330p;10p;50V;S;0805_1_1"
+    			(pin passive line
+    				(at 0 3.81 270)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+         )
+    			(pin passive line
+    				(at 0 -3.81 90)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "2"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    )
+    )
+  )
+(symbol "C;M;470p;10p;50V;S;0805" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 0.635 2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "470p 50V" (id 1) (at 4.635 -2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "C;C;T1;S;P0805;NA" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "CPN" "BT00003-124700" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -2.778 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "C cap capacitor" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+        (property "ki_description" "Capacitor" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "C_*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "C;M;470p;10p;50V;S;0805_0_1"
+    			(polyline 
+    				(pts
+    					(xy -2.032 -0.762) (xy 2.032 -0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(polyline
+    				(pts
+    					(xy -2.032 0.762) (xy 2.032 0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+         )
+       (symbol "C;M;470p;10p;50V;S;0805_1_1"
+    			(pin passive line
+    				(at 0 3.81 270)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+         )
+    			(pin passive line
+    				(at 0 -3.81 90)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "2"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    )
+    )
+  )
+(symbol "C;M;560p;10p;50V;S;0805" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 0.635 2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "560p 50V" (id 1) (at 4.635 -2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "C;C;T1;S;P0805;NA" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "CPN" "BT00003-125600" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -2.778 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "C cap capacitor" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+        (property "ki_description" "Capacitor" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "C_*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "C;M;560p;10p;50V;S;0805_0_1"
+    			(polyline 
+    				(pts
+    					(xy -2.032 -0.762) (xy 2.032 -0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(polyline
+    				(pts
+    					(xy -2.032 0.762) (xy 2.032 0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+         )
+       (symbol "C;M;560p;10p;50V;S;0805_1_1"
+    			(pin passive line
+    				(at 0 3.81 270)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+         )
+    			(pin passive line
+    				(at 0 -3.81 90)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "2"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    )
+    )
+  )
+(symbol "C;M;680p;10p;50V;S;0805" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 0.635 2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "680p 50V" (id 1) (at 4.635 -2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "C;C;T1;S;P0805;NA" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "CPN" "BT00003-126800" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -2.778 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "C cap capacitor" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+        (property "ki_description" "Capacitor" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "C_*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "C;M;680p;10p;50V;S;0805_0_1"
+    			(polyline 
+    				(pts
+    					(xy -2.032 -0.762) (xy 2.032 -0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(polyline
+    				(pts
+    					(xy -2.032 0.762) (xy 2.032 0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+         )
+       (symbol "C;M;680p;10p;50V;S;0805_1_1"
+    			(pin passive line
+    				(at 0 3.81 270)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+         )
+    			(pin passive line
+    				(at 0 -3.81 90)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "2"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    )
+    )
+  )
+(symbol "C;M;820p;10p;50V;S;0805" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 0.635 2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "820p 50V" (id 1) (at 4.635 -2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "C;C;T1;S;P0805;NA" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "CPN" "BT00003-128200" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -2.778 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "C cap capacitor" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+        (property "ki_description" "Capacitor" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "C_*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "C;M;820p;10p;50V;S;0805_0_1"
+    			(polyline 
+    				(pts
+    					(xy -2.032 -0.762) (xy 2.032 -0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(polyline
+    				(pts
+    					(xy -2.032 0.762) (xy 2.032 0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+         )
+       (symbol "C;M;820p;10p;50V;S;0805_1_1"
+    			(pin passive line
+    				(at 0 3.81 270)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+         )
+    			(pin passive line
+    				(at 0 -3.81 90)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "2"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    )
+    )
+  )
+(symbol "C;M;1n5;10p;50V;S;0805" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 0.635 2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "1n5 50V" (id 1) (at 4.635 -2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "C;C;T1;S;P0805;NA" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "CPN" "BT00003-090015" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -2.778 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "C cap capacitor" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+        (property "ki_description" "Capacitor" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "C_*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "C;M;1n5;10p;50V;S;0805_0_1"
+    			(polyline 
+    				(pts
+    					(xy -2.032 -0.762) (xy 2.032 -0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(polyline
+    				(pts
+    					(xy -2.032 0.762) (xy 2.032 0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+         )
+       (symbol "C;M;1n5;10p;50V;S;0805_1_1"
+    			(pin passive line
+    				(at 0 3.81 270)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+         )
+    			(pin passive line
+    				(at 0 -3.81 90)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "2"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    )
+    )
+  )
+(symbol "C;M;2n2;10p;50V;S;0805" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 0.635 2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "2n2 50V" (id 1) (at 4.635 -2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "C;C;T1;S;P0805;NA" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "CPN" "BT00003-090022" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -2.778 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "C cap capacitor" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+        (property "ki_description" "Capacitor" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "C_*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "C;M;2n2;10p;50V;S;0805_0_1"
+    			(polyline 
+    				(pts
+    					(xy -2.032 -0.762) (xy 2.032 -0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(polyline
+    				(pts
+    					(xy -2.032 0.762) (xy 2.032 0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+         )
+       (symbol "C;M;2n2;10p;50V;S;0805_1_1"
+    			(pin passive line
+    				(at 0 3.81 270)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+         )
+    			(pin passive line
+    				(at 0 -3.81 90)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "2"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    )
+    )
+  )
+(symbol "C;M;3n3;10p;50V;S;0805" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 0.635 2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "3n3 50V" (id 1) (at 4.635 -2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "C;C;T1;S;P0805;NA" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "CPN" "BT00003-090033" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -2.778 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "C cap capacitor" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+        (property "ki_description" "Capacitor" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "C_*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "C;M;3n3;10p;50V;S;0805_0_1"
+    			(polyline 
+    				(pts
+    					(xy -2.032 -0.762) (xy 2.032 -0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(polyline
+    				(pts
+    					(xy -2.032 0.762) (xy 2.032 0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+         )
+       (symbol "C;M;3n3;10p;50V;S;0805_1_1"
+    			(pin passive line
+    				(at 0 3.81 270)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+         )
+    			(pin passive line
+    				(at 0 -3.81 90)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "2"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    )
+    )
+  )
+(symbol "C;M;4n7;10p;50V;S;0805" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 0.635 2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "4n7 50V" (id 1) (at 4.635 -2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "C;C;T1;S;P0805;NA" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "CPN" "BT00003-090047" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -2.778 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "C cap capacitor" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+        (property "ki_description" "Capacitor" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "C_*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "C;M;4n7;10p;50V;S;0805_0_1"
+    			(polyline 
+    				(pts
+    					(xy -2.032 -0.762) (xy 2.032 -0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(polyline
+    				(pts
+    					(xy -2.032 0.762) (xy 2.032 0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+         )
+       (symbol "C;M;4n7;10p;50V;S;0805_1_1"
+    			(pin passive line
+    				(at 0 3.81 270)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+         )
+    			(pin passive line
+    				(at 0 -3.81 90)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "2"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    )
+    )
+  )
+(symbol "C;M;6n8;10p;50V;S;0805" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 0.635 2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "6n8 50V" (id 1) (at 4.635 -2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "C;C;T1;S;P0805;NA" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "CPN" "BT00003-090068" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -2.778 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "C cap capacitor" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+        (property "ki_description" "Capacitor" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "C_*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "C;M;6n8;10p;50V;S;0805_0_1"
+    			(polyline 
+    				(pts
+    					(xy -2.032 -0.762) (xy 2.032 -0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(polyline
+    				(pts
+    					(xy -2.032 0.762) (xy 2.032 0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+         )
+       (symbol "C;M;6n8;10p;50V;S;0805_1_1"
+    			(pin passive line
+    				(at 0 3.81 270)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+         )
+    			(pin passive line
+    				(at 0 -3.81 90)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "2"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    )
+    )
+  )
+(symbol "C;M;8n2;10p;50V;S;0805" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 0.635 2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "8n2 50V" (id 1) (at 4.635 -2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "C;C;T1;S;P0805;NA" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "CPN" "BT00003-090082" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -2.778 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "C cap capacitor" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+        (property "ki_description" "Capacitor" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "C_*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "C;M;8n2;10p;50V;S;0805_0_1"
+    			(polyline 
+    				(pts
+    					(xy -2.032 -0.762) (xy 2.032 -0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(polyline
+    				(pts
+    					(xy -2.032 0.762) (xy 2.032 0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+         )
+       (symbol "C;M;8n2;10p;50V;S;0805_1_1"
+    			(pin passive line
+    				(at 0 3.81 270)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+         )
+    			(pin passive line
+    				(at 0 -3.81 90)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "2"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    )
+    )
+  )
+(symbol "C;M;15n;10p;50V;S;0805" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 0.635 2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "15n 50V" (id 1) (at 4.635 -2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "C;C;T1;S;P0805;NA" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "CPN" "BT00003-090150" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -2.778 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "C cap capacitor" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+        (property "ki_description" "Capacitor" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "C_*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "C;M;15n;10p;50V;S;0805_0_1"
+    			(polyline 
+    				(pts
+    					(xy -2.032 -0.762) (xy 2.032 -0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(polyline
+    				(pts
+    					(xy -2.032 0.762) (xy 2.032 0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+         )
+       (symbol "C;M;15n;10p;50V;S;0805_1_1"
+    			(pin passive line
+    				(at 0 3.81 270)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+         )
+    			(pin passive line
+    				(at 0 -3.81 90)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "2"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    )
+    )
+  )
+(symbol "C;M;220n;10p;50V;S;0805" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 0.635 2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "220n 50V" (id 1) (at 4.635 -2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "C;C;T1;S;P0805;NA" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "CPN" "BT00003-090680" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -2.778 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "C cap capacitor" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+        (property "ki_description" "Capacitor" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "C_*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "C;M;220n;10p;50V;S;0805_0_1"
+    			(polyline 
+    				(pts
+    					(xy -2.032 -0.762) (xy 2.032 -0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(polyline
+    				(pts
+    					(xy -2.032 0.762) (xy 2.032 0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+         )
+       (symbol "C;M;220n;10p;50V;S;0805_1_1"
+    			(pin passive line
+    				(at 0 3.81 270)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+         )
+    			(pin passive line
+    				(at 0 -3.81 90)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "2"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    )
+    )
+  )
+(symbol "C;M;470n;10p;50V;S;0805" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 0.635 2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "470n 50V" (id 1) (at 4.635 -2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "C;C;T1;S;P0805;NA" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "CPN" "BT00003-090680" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -2.778 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "C cap capacitor" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+        (property "ki_description" "Capacitor" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "C_*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "C;M;470n;10p;50V;S;0805_0_1"
+    			(polyline 
+    				(pts
+    					(xy -2.032 -0.762) (xy 2.032 -0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(polyline
+    				(pts
+    					(xy -2.032 0.762) (xy 2.032 0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+         )
+       (symbol "C;M;470n;10p;50V;S;0805_1_1"
+    			(pin passive line
+    				(at 0 3.81 270)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+         )
+    			(pin passive line
+    				(at 0 -3.81 90)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "2"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    )
+    )
+  )
+(symbol "C;M;22n;10p;25V;S;0805" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 0.635 2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "22n 25V" (id 1) (at 4.635 -2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "C;C;T1;S;P0805;NA" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "CPN" "BT00004-090220" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -2.778 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "C cap capacitor" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+        (property "ki_description" "Capacitor" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "C_*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "C;M;22n;10p;25V;S;0805_0_1"
+    			(polyline 
+    				(pts
+    					(xy -2.032 -0.762) (xy 2.032 -0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(polyline
+    				(pts
+    					(xy -2.032 0.762) (xy 2.032 0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+         )
+       (symbol "C;M;22n;10p;25V;S;0805_1_1"
+    			(pin passive line
+    				(at 0 3.81 270)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+         )
+    			(pin passive line
+    				(at 0 -3.81 90)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "2"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    )
+    )
+  )
+(symbol "C;M;33n;10p;25V;S;0805" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 0.635 2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "33n 25V" (id 1) (at 4.635 -2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "C;C;T1;S;P0805;NA" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "CPN" "BT00004-090330" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -2.778 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "C cap capacitor" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+        (property "ki_description" "Capacitor" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "C_*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "C;M;33n;10p;25V;S;0805_0_1"
+    			(polyline 
+    				(pts
+    					(xy -2.032 -0.762) (xy 2.032 -0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(polyline
+    				(pts
+    					(xy -2.032 0.762) (xy 2.032 0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+         )
+       (symbol "C;M;33n;10p;25V;S;0805_1_1"
+    			(pin passive line
+    				(at 0 3.81 270)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+         )
+    			(pin passive line
+    				(at 0 -3.81 90)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "2"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    )
+    )
+  )
+(symbol "C;M;47n;10p;25V;S;0805" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 0.635 2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "47n 25V" (id 1) (at 4.635 -2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "C;C;T1;S;P0805;NA" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "CPN" "BT00004-090470" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -2.778 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "C cap capacitor" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+        (property "ki_description" "Capacitor" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "C_*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "C;M;47n;10p;25V;S;0805_0_1"
+    			(polyline 
+    				(pts
+    					(xy -2.032 -0.762) (xy 2.032 -0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(polyline
+    				(pts
+    					(xy -2.032 0.762) (xy 2.032 0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+         )
+       (symbol "C;M;47n;10p;25V;S;0805_1_1"
+    			(pin passive line
+    				(at 0 3.81 270)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+         )
+    			(pin passive line
+    				(at 0 -3.81 90)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "2"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    )
+    )
+  )
+(symbol "C;M;68n;10p;25V;S;0805" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 0.635 2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "68n 25V" (id 1) (at 4.635 -2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "C;C;T1;S;P0805;NA" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "CPN" "BT00004-090680" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -2.778 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "C cap capacitor" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+        (property "ki_description" "Capacitor" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "C_*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "C;M;68n;10p;25V;S;0805_0_1"
+    			(polyline 
+    				(pts
+    					(xy -2.032 -0.762) (xy 2.032 -0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(polyline
+    				(pts
+    					(xy -2.032 0.762) (xy 2.032 0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+         )
+       (symbol "C;M;68n;10p;25V;S;0805_1_1"
+    			(pin passive line
+    				(at 0 3.81 270)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+         )
+    			(pin passive line
+    				(at 0 -3.81 90)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "2"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    )
+    )
+  )
+(symbol "C;M;100n;10p;25V;S;0805" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 0.635 2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "100n 25V" (id 1) (at 4.635 -2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "C;C;T1;S;P0805;NA" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "CPN" "BT00004-090680" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -2.778 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "C cap capacitor" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+        (property "ki_description" "Capacitor" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "C_*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "C;M;100n;10p;25V;S;0805_0_1"
+    			(polyline 
+    				(pts
+    					(xy -2.032 -0.762) (xy 2.032 -0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(polyline
+    				(pts
+    					(xy -2.032 0.762) (xy 2.032 0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+         )
+       (symbol "C;M;100n;10p;25V;S;0805_1_1"
+    			(pin passive line
+    				(at 0 3.81 270)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+         )
+    			(pin passive line
+    				(at 0 -3.81 90)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "2"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    )
+    )
+  )
+(symbol "C;M;680n;01p;25V;S;0805" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 0.635 2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "680n 25V" (id 1) (at 4.635 -2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "C;C;T1;S;P0805;NA" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "CPN" "BT00004-090680" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -2.778 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "C cap capacitor" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+        (property "ki_description" "Capacitor" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "C_*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "C;M;680n;01p;25V;S;0805_0_1"
+    			(polyline 
+    				(pts
+    					(xy -2.032 -0.762) (xy 2.032 -0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(polyline
+    				(pts
+    					(xy -2.032 0.762) (xy 2.032 0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+         )
+       (symbol "C;M;680n;01p;25V;S;0805_1_1"
+    			(pin passive line
+    				(at 0 3.81 270)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+         )
+    			(pin passive line
+    				(at 0 -3.81 90)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "2"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    )
+    )
+  )
+(symbol "C;M;2u2;10p;16V;S;0805" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 0.635 2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "2u2 16V" (id 1) (at 4.635 -2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "C;C;T1;S;P0805;NA" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "CPN" "BT00005-060022" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -2.778 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "C cap capacitor" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+        (property "ki_description" "Capacitor" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "C_*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "C;M;2u2;10p;16V;S;0805_0_1"
+    			(polyline 
+    				(pts
+    					(xy -2.032 -0.762) (xy 2.032 -0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(polyline
+    				(pts
+    					(xy -2.032 0.762) (xy 2.032 0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+         )
+       (symbol "C;M;2u2;10p;16V;S;0805_1_1"
+    			(pin passive line
+    				(at 0 3.81 270)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+         )
+    			(pin passive line
+    				(at 0 -3.81 90)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "2"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    )
+    )
+  )
+(symbol "C;M;1u;10p;10V;S;0805" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 0.635 2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "1u 10V" (id 1) (at 4.635 -2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "C;C;T1;S;P0805;NA" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "CPN" "BT00006-060010" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -2.778 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "C cap capacitor" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+        (property "ki_description" "Capacitor" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "C_*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "C;M;1u;10p;10V;S;0805_0_1"
+    			(polyline 
+    				(pts
+    					(xy -2.032 -0.762) (xy 2.032 -0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(polyline
+    				(pts
+    					(xy -2.032 0.762) (xy 2.032 0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+         )
+       (symbol "C;M;1u;10p;10V;S;0805_1_1"
+    			(pin passive line
+    				(at 0 3.81 270)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+         )
+    			(pin passive line
+    				(at 0 -3.81 90)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "2"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    )
+    )
+  )
+(symbol "C;M;4u7;10p;10V;S;0805" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 0.635 2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "4u7 10V" (id 1) (at 4.635 -2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "C;C;T1;S;P0805;NA" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "CPN" "BT00006-060047" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -2.778 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "C cap capacitor" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+        (property "ki_description" "Capacitor" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "C_*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "C;M;4u7;10p;10V;S;0805_0_1"
+    			(polyline 
+    				(pts
+    					(xy -2.032 -0.762) (xy 2.032 -0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(polyline
+    				(pts
+    					(xy -2.032 0.762) (xy 2.032 0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+         )
+       (symbol "C;M;4u7;10p;10V;S;0805_1_1"
+    			(pin passive line
+    				(at 0 3.81 270)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+         )
+    			(pin passive line
+    				(at 0 -3.81 90)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "2"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    )
+    )
+  )
+(symbol "C;M;10u;10p;10V;S;0805" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Reference" "C" (id 0) (at 0.635 2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "10u 10V" (id 1) (at 4.635 -2.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "MPN" "C;C;T1;S;P0805;NA" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "CPN" "BT00006-060100" (id 1) (at 4 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at -2.778 0 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "C cap capacitor" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+        (property "ki_description" "Capacitor" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "C_*" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "C;M;10u;10p;10V;S;0805_0_1"
+    			(polyline 
+    				(pts
+    					(xy -2.032 -0.762) (xy 2.032 -0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(polyline
+    				(pts
+    					(xy -2.032 0.762) (xy 2.032 0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+         )
+       (symbol "C;M;10u;10p;10V;S;0805_1_1"
+    			(pin passive line
+    				(at 0 3.81 270)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+         )
+    			(pin passive line
+    				(at 0 -3.81 90)
+    				(length 2.794)
+    				(name "~"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "2"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    )
+    )
+  )
 )
