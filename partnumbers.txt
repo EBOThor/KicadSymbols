@@ -28,7 +28,8 @@ BT04001-00001	INA350CDSIDDFR	SOT-23-8	bt_amp		50 gain instrument amplifier	ToDo:
 
 
 BT05xxx = Oscillators
-BT05001-00001	SG3225CAN 25.0000M-TJGA6	4-pin-smd 	bt_oscillator		
+BT05001-25601	SG3225CAN 25.0000M-TJGA6	4-pin-smd 	bt_oscillator
+BT05001-12601	SG3225CAN 12.0000M-TJGA6	4-pin-smd 	bt_oscillator		
 
 ...
 BT10xxx = Connectors
