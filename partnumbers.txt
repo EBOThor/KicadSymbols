@@ -31,6 +31,12 @@ BT05xxx = Oscillators
 BT05001-25601	SG3225CAN 25.0000M-TJGA6	4-pin-smd 	bt_oscillator
 BT05001-12601	SG3225CAN 12.0000M-TJGA6	4-pin-smd 	bt_oscillator		
 
+
+BT06xxx = Transistors
+BT060001-0001	BSS138						SOT23-3		bt_transistor
+BT060002-0001	2N7002						SOT23-3		bt_transistor
+
+
 ...
 BT10xxx = Connectors
 ...

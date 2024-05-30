@@ -49,7 +49,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "SG3225CAN 25.0000M-TJGA6"
+		(property "MPN" "SG3225CAN 12.0000M-TJGA6"
 			(at 0 0 0)
 			(effects
 				(font
