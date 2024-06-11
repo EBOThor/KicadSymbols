@@ -77,7 +77,7 @@
 					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(pin output line
@@ -173,7 +173,7 @@
 					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(pin input line
@@ -258,7 +258,7 @@
 					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(text "REG"
@@ -374,14 +374,14 @@
 		)
 		(symbol "LTC1590_4_0"
 			(rectangle
-				(start -7.62 -5.08)
-				(end 7.62 5.08)
+				(start -7.62 5.08)
+				(end 7.62 -5.08)
 				(stroke
 					(width 0)
 					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(text "Power"

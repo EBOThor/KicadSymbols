@@ -46,7 +46,7 @@
 			)
 		)
 		(property "Description" "SAME53 MCU from microchip, eth TQFP"
-			(at 20.828 13.208 0)
+			(at 25.908 13.208 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73,7 +73,7 @@
 			)
 		)
 		(property "Comment" ""
-			(at 0 0 0)
+			(at -3.81 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -107,56 +107,19 @@
 			)
 		)
 		(symbol "ATSAME53J18A-AZ_1_1"
-			(polyline
-				(pts
-					(xy 7.62 -78.74) (xy 38.1 -78.74)
-				)
+			(rectangle
+				(start 3.81 3.81)
+				(end 43.18 -78.74)
 				(stroke
-					(width 0.127)
+					(width 0)
 					(type default)
 				)
 				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 7.62 5.08) (xy 7.62 -78.74)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 38.1 -78.74) (xy 38.1 5.08)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 38.1 5.08) (xy 7.62 5.08)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(pin bidirectional line
-				(at 45.72 -2.54 180)
+				(at 50.8 -2.54 180)
 				(length 7.62)
 				(name "PA00"
 					(effects
@@ -177,7 +140,7 @@
 				(alternate "TC/WO0[1]" bidirectional line)
 			)
 			(pin bidirectional line
-				(at 0 -22.86 0)
+				(at -3.81 -22.86 0)
 				(length 7.62)
 				(name "PB07"
 					(effects
@@ -199,7 +162,7 @@
 				(alternate "X25/Y25" bidirectional line)
 			)
 			(pin bidirectional line
-				(at 0 -25.4 0)
+				(at -3.81 -25.4 0)
 				(length 7.62)
 				(name "PB08"
 					(effects
@@ -223,7 +186,7 @@
 				(alternate "X1/Y1" bidirectional line)
 			)
 			(pin bidirectional line
-				(at 0 -27.94 0)
+				(at -3.81 -27.94 0)
 				(length 7.62)
 				(name "PB09"
 					(effects
@@ -248,7 +211,7 @@
 				(alternate "X2/Y2" bidirectional line)
 			)
 			(pin bidirectional line
-				(at 45.72 -12.7 180)
+				(at 50.8 -12.7 180)
 				(length 7.62)
 				(name "PA04"
 					(effects
@@ -273,7 +236,7 @@
 				(alternate "X3/Y3" bidirectional line)
 			)
 			(pin bidirectional line
-				(at 45.72 -15.24 180)
+				(at 50.8 -15.24 180)
 				(length 7.62)
 				(name "PA05"
 					(effects
@@ -296,7 +259,7 @@
 				(alternate "SERCOM0/PAD[1]" bidirectional line)
 			)
 			(pin bidirectional line
-				(at 45.72 -17.78 180)
+				(at 50.8 -17.78 180)
 				(length 7.62)
 				(name "PA06"
 					(effects
@@ -322,7 +285,7 @@
 				(alternate "X4/Y4" bidirectional line)
 			)
 			(pin bidirectional line
-				(at 45.72 -20.32 180)
+				(at 50.8 -20.32 180)
 				(length 7.62)
 				(name "PA07"
 					(effects
@@ -347,7 +310,7 @@
 				(alternate "X5/Y5" bidirectional line)
 			)
 			(pin bidirectional line
-				(at 45.72 -22.86 180)
+				(at 50.8 -22.86 180)
 				(length 7.62)
 				(name "PA08"
 					(effects
@@ -366,6 +329,7 @@
 				(alternate "ADC0/AIN[8]" bidirectional line)
 				(alternate "ADC1/AIN[2]" bidirectional line)
 				(alternate "CCL/IN[3]" bidirectional line)
+				(alternate "I2C0/PAD[0]" bidirectional line)
 				(alternate "I2S/MCK[0]" bidirectional line)
 				(alternate "NMI" bidirectional line)
 				(alternate "QSPI/DATA[0]" bidirectional line)
@@ -377,7 +341,7 @@
 				(alternate "X6/Y6" bidirectional line)
 			)
 			(pin bidirectional line
-				(at 45.72 -25.4 180)
+				(at 50.8 -25.4 180)
 				(length 7.62)
 				(name "PA09"
 					(effects
@@ -397,6 +361,7 @@
 				(alternate "ADC1/AIN[3]" bidirectional line)
 				(alternate "CCL/IN[4]" bidirectional line)
 				(alternate "EXTINT[9]" bidirectional line)
+				(alternate "I2C0/PAD[1]" bidirectional line)
 				(alternate "I2S/FS[0]" bidirectional line)
 				(alternate "QSPI/DATA[1]" bidirectional line)
 				(alternate "SDHC0/SDATA[0]" bidirectional line)
@@ -407,7 +372,7 @@
 				(alternate "X7/Y7" bidirectional line)
 			)
 			(pin bidirectional line
-				(at 45.72 -27.94 180)
+				(at 50.8 -27.94 180)
 				(length 7.62)
 				(name "PA10"
 					(effects
@@ -438,7 +403,7 @@
 				(alternate "X8/Y8" bidirectional line)
 			)
 			(pin bidirectional line
-				(at 45.72 -5.08 180)
+				(at 50.8 -5.08 180)
 				(length 7.62)
 				(name "PA01"
 					(effects
@@ -459,7 +424,7 @@
 				(alternate "TC2/WO[1]" bidirectional line)
 			)
 			(pin bidirectional line
-				(at 45.72 -30.48 180)
+				(at 50.8 -30.48 180)
 				(length 7.62)
 				(name "PA11"
 					(effects
@@ -489,7 +454,7 @@
 				(alternate "X9/Y9" bidirectional line)
 			)
 			(pin bidirectional line
-				(at 0 -30.48 0)
+				(at -3.81 -30.48 0)
 				(length 7.62)
 				(name "PB10"
 					(effects
@@ -517,7 +482,7 @@
 				(alternate "TCC1/WO[0]" bidirectional line)
 			)
 			(pin bidirectional line
-				(at 0 -33.02 0)
+				(at -3.81 -33.02 0)
 				(length 7.62)
 				(name "PB11"
 					(effects
@@ -545,7 +510,7 @@
 				(alternate "TCC1/WO[1]" bidirectional line)
 			)
 			(pin bidirectional line
-				(at 0 -35.56 0)
+				(at -3.81 -35.56 0)
 				(length 7.62)
 				(name "PB12"
 					(effects
@@ -573,7 +538,7 @@
 				(alternate "X26/Y26" bidirectional line)
 			)
 			(pin bidirectional line
-				(at 0 -38.1 0)
+				(at -3.81 -38.1 0)
 				(length 7.62)
 				(name "PB13"
 					(effects
@@ -601,7 +566,7 @@
 				(alternate "X27/Y27" bidirectional line)
 			)
 			(pin bidirectional line
-				(at 0 -40.64 0)
+				(at -3.81 -40.64 0)
 				(length 7.62)
 				(name "PB14"
 					(effects
@@ -630,7 +595,7 @@
 				(alternate "X28/Y28" bidirectional line)
 			)
 			(pin bidirectional line
-				(at 0 -43.18 0)
+				(at -3.81 -43.18 0)
 				(length 7.62)
 				(name "PB15"
 					(effects
@@ -659,7 +624,7 @@
 				(alternate "X29/Y29" bidirectional line)
 			)
 			(pin bidirectional line
-				(at 45.72 -33.02 180)
+				(at 50.8 -33.02 180)
 				(length 7.62)
 				(name "PA12"
 					(effects
@@ -678,6 +643,7 @@
 				(alternate "AC/CMP[0]" bidirectional line)
 				(alternate "EXTINT[12]" bidirectional line)
 				(alternate "GMAC/GRX[1]" bidirectional line)
+				(alternate "I2C1/PAD[0]" bidirectional line)
 				(alternate "PCC/DEN1" bidirectional line)
 				(alternate "SDHC0/SDCD" bidirectional line)
 				(alternate "SERCOM2/PAD[0]" bidirectional line)
@@ -687,7 +653,7 @@
 				(alternate "TCC1/WO[2]" bidirectional line)
 			)
 			(pin bidirectional line
-				(at 45.72 -7.62 180)
+				(at 50.8 -7.62 180)
 				(length 7.62)
 				(name "PA02"
 					(effects
@@ -706,9 +672,10 @@
 				(alternate "ADC0/AIN[0]" input line)
 				(alternate "DAC/VOUT[0]" output line)
 				(alternate "EXTINT[2]" open_collector line)
+				(alternate "RTC/IN2" bidirectional line)
 			)
 			(pin bidirectional line
-				(at 45.72 -35.56 180)
+				(at 50.8 -35.56 180)
 				(length 7.62)
 				(name "PA13"
 					(effects
@@ -727,6 +694,7 @@
 				(alternate "AC/CMP[1]" bidirectional line)
 				(alternate "EXTINT[13]" bidirectional line)
 				(alternate "GMAC/GRX[0]" bidirectional line)
+				(alternate "I2C1/PAD[1]" bidirectional line)
 				(alternate "PCC/DEN2" bidirectional line)
 				(alternate "SDHC0/SDWP" bidirectional line)
 				(alternate "SERCOM2/PAD[1]" bidirectional line)
@@ -736,7 +704,7 @@
 				(alternate "TCC1/WO[3]" bidirectional line)
 			)
 			(pin bidirectional line
-				(at 45.72 -38.1 180)
+				(at 50.8 -38.1 180)
 				(length 7.62)
 				(name "PA14"
 					(effects
@@ -764,7 +732,7 @@
 				(alternate "XOSC0/XIN" bidirectional line)
 			)
 			(pin bidirectional line
-				(at 45.72 -40.64 180)
+				(at 50.8 -40.64 180)
 				(length 7.62)
 				(name "PA15"
 					(effects
@@ -780,11 +748,18 @@
 						)
 					)
 				)
-				(alternate "GRXER" bidirectional line)
+				(alternate "EXTINT[15]" bidirectional line)
+				(alternate "GCLK/IO[1]" bidirectional line)
+				(alternate "GMAC/GRXER" bidirectional line)
+				(alternate "SERCOM2/PAD[3]" bidirectional line)
+				(alternate "SERCOM4/PAD[3]" bidirectional line)
+				(alternate "TC3/WO[1]" bidirectional line)
+				(alternate "TCC2/WO[1]" bidirectional line)
+				(alternate "TCCP1/WO[3]" bidirectional line)
 				(alternate "XOSC0/XOUT" bidirectional line)
 			)
 			(pin bidirectional line
-				(at 45.72 -43.18 180)
+				(at 50.8 -43.18 180)
 				(length 7.62)
 				(name "PA16"
 					(effects
@@ -800,10 +775,21 @@
 						)
 					)
 				)
-				(alternate "GCRS/GRXDV" bidirectional line)
+				(alternate "CCL/IN[0]" bidirectional line)
+				(alternate "EXTINT[0]" bidirectional line)
+				(alternate "GCLK/IO[2]" bidirectional line)
+				(alternate "GMAC/GCRS/GRXDV" bidirectional line)
+				(alternate "I2C2/PAD[0]" bidirectional line)
+				(alternate "PCC/DATA[0]" bidirectional line)
+				(alternate "SERCOM1/PAD[0]" bidirectional line)
+				(alternate "SERCOM3/PAD[1]" bidirectional line)
+				(alternate "TC2/WO[0]" bidirectional line)
+				(alternate "TCC0/WO[4]" bidirectional line)
+				(alternate "TCC1/WO[0]" bidirectional line)
+				(alternate "X10/Y10" bidirectional line)
 			)
 			(pin bidirectional line
-				(at 45.72 -45.72 180)
+				(at 50.8 -45.72 180)
 				(length 7.62)
 				(name "PA17"
 					(effects
@@ -819,10 +805,20 @@
 						)
 					)
 				)
-				(alternate "GTXEN" bidirectional line)
+				(alternate "CCL/IN[1]" bidirectional line)
+				(alternate "EXTINT[1]" bidirectional line)
+				(alternate "GCLK/IO[3]" bidirectional line)
+				(alternate "GMAC/GTXEN" bidirectional line)
+				(alternate "I2C2/PAD[1]" bidirectional line)
+				(alternate "PCC/DATA[1]" bidirectional line)
+				(alternate "SERCOM1/PAD[1]" bidirectional line)
+				(alternate "SERCOM3/PAD[0]" bidirectional line)
+				(alternate "TC2/WO[1]" bidirectional line)
+				(alternate "TCC0/WO[5]" bidirectional line)
+				(alternate "TCC1/WO[1]" bidirectional line)
 			)
 			(pin bidirectional line
-				(at 45.72 -48.26 180)
+				(at 50.8 -48.26 180)
 				(length 7.62)
 				(name "PA18"
 					(effects
@@ -838,10 +834,20 @@
 						)
 					)
 				)
-				(alternate "GTX[0]" bidirectional line)
+				(alternate "AC/CMP[0]" bidirectional line)
+				(alternate "CCL/IN[2]" bidirectional line)
+				(alternate "EXTINT[2]" bidirectional line)
+				(alternate "GMAC/GTX[0]" bidirectional line)
+				(alternate "PCC/DATA[2]" bidirectional line)
+				(alternate "SERCOM1/PAD[2]" bidirectional line)
+				(alternate "SERCOM3/PAD[2]" bidirectional line)
+				(alternate "TC3/WO[0]" bidirectional line)
+				(alternate "TCC0/WO[6]" bidirectional line)
+				(alternate "TCC1/WO[2]" bidirectional line)
+				(alternate "X12/Y12" bidirectional line)
 			)
 			(pin bidirectional line
-				(at 45.72 -50.8 180)
+				(at 50.8 -50.8 180)
 				(length 7.62)
 				(name "PA19"
 					(effects
@@ -860,7 +866,7 @@
 				(alternate "GTX[1]" bidirectional line)
 			)
 			(pin bidirectional line
-				(at 0 -45.72 0)
+				(at -3.81 -45.72 0)
 				(length 7.62)
 				(name "PB16"
 					(effects
@@ -878,7 +884,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 45.72 -10.16 180)
+				(at 50.8 -10.16 180)
 				(length 7.62)
 				(name "PA03"
 					(effects
@@ -900,7 +906,7 @@
 				(alternate "X0/Y0" bidirectional line)
 			)
 			(pin bidirectional line
-				(at 0 -48.26 0)
+				(at -3.81 -48.26 0)
 				(length 7.62)
 				(name "PB17"
 					(effects
@@ -918,7 +924,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 45.72 -53.34 180)
+				(at 50.8 -53.34 180)
 				(length 7.62)
 				(name "PA20"
 					(effects
@@ -937,7 +943,7 @@
 				(alternate "GMDC" bidirectional line)
 			)
 			(pin bidirectional line
-				(at 45.72 -55.88 180)
+				(at 50.8 -55.88 180)
 				(length 7.62)
 				(name "PA21"
 					(effects
@@ -956,7 +962,7 @@
 				(alternate "GMDIO" bidirectional line)
 			)
 			(pin bidirectional line
-				(at 45.72 -58.42 180)
+				(at 50.8 -58.42 180)
 				(length 7.62)
 				(name "PA22"
 					(effects
@@ -972,9 +978,10 @@
 						)
 					)
 				)
+				(alternate "I2C3/PAD[0]" bidirectional line)
 			)
 			(pin bidirectional line
-				(at 45.72 -60.96 180)
+				(at 50.8 -60.96 180)
 				(length 7.62)
 				(name "PA23"
 					(effects
@@ -990,9 +997,10 @@
 						)
 					)
 				)
+				(alternate "I2C3/PAD[1]" bidirectional line)
 			)
 			(pin bidirectional line
-				(at 45.72 -63.5 180)
+				(at 50.8 -63.5 180)
 				(length 7.62)
 				(name "PA24"
 					(effects
@@ -1011,7 +1019,7 @@
 				(alternate "USB/DM" bidirectional line)
 			)
 			(pin bidirectional line
-				(at 45.72 -66.04 180)
+				(at 50.8 -66.04 180)
 				(length 7.62)
 				(name "PA25"
 					(effects
@@ -1030,7 +1038,7 @@
 				(alternate "USB/DP" bidirectional line)
 			)
 			(pin bidirectional line
-				(at 0 -50.8 0)
+				(at -3.81 -50.8 0)
 				(length 7.62)
 				(name "PB22"
 					(effects
@@ -1049,7 +1057,7 @@
 				(alternate "XOSC1/XIN" bidirectional line)
 			)
 			(pin bidirectional line
-				(at 0 -15.24 0)
+				(at -3.81 -15.24 0)
 				(length 7.62)
 				(name "PB04"
 					(effects
@@ -1070,7 +1078,7 @@
 				(alternate "X22/Y22" bidirectional line)
 			)
 			(pin bidirectional line
-				(at 0 -53.34 0)
+				(at -3.81 -53.34 0)
 				(length 7.62)
 				(name "PB23"
 					(effects
@@ -1089,7 +1097,7 @@
 				(alternate "XOSC1/XOUT" bidirectional line)
 			)
 			(pin bidirectional line
-				(at 45.72 -68.58 180)
+				(at 50.8 -68.58 180)
 				(length 7.62)
 				(name "PA27"
 					(effects
@@ -1107,7 +1115,7 @@
 				)
 			)
 			(pin input line
-				(at 0 0 0)
+				(at -3.81 0 0)
 				(length 7.62)
 				(name "RESETN"
 					(effects
@@ -1125,7 +1133,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 45.72 -71.12 180)
+				(at 50.8 -71.12 180)
 				(length 7.62)
 				(name "PA30"
 					(effects
@@ -1144,7 +1152,7 @@
 				(alternate "SWCLK" bidirectional line)
 			)
 			(pin bidirectional line
-				(at 45.72 -73.66 180)
+				(at 50.8 -73.66 180)
 				(length 7.62)
 				(name "PA31"
 					(effects
@@ -1163,7 +1171,7 @@
 				(alternate "SWDIO" bidirectional line)
 			)
 			(pin bidirectional line
-				(at 0 -55.88 0)
+				(at -3.81 -55.88 0)
 				(length 7.62)
 				(name "PB30"
 					(effects
@@ -1181,7 +1189,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -17.78 0)
+				(at -3.81 -17.78 0)
 				(length 7.62)
 				(name "PB05"
 					(effects
@@ -1202,7 +1210,7 @@
 				(alternate "X23/Y23" bidirectional line)
 			)
 			(pin bidirectional line
-				(at 0 -58.42 0)
+				(at -3.81 -58.42 0)
 				(length 7.62)
 				(name "PB31"
 					(effects
@@ -1220,7 +1228,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -5.08 0)
+				(at -3.81 -5.08 0)
 				(length 7.62)
 				(name "PB00"
 					(effects
@@ -1236,9 +1244,10 @@
 						)
 					)
 				)
+				(alternate "RTC/IN0" bidirectional line)
 			)
 			(pin bidirectional line
-				(at 0 -7.62 0)
+				(at -3.81 -7.62 0)
 				(length 7.62)
 				(name "PB01"
 					(effects
@@ -1254,9 +1263,11 @@
 						)
 					)
 				)
+				(alternate "RTC/OUT" bidirectional line)
+				(alternate "SUPC/OUT0" bidirectional line)
 			)
 			(pin bidirectional line
-				(at 0 -10.16 0)
+				(at -3.81 -10.16 0)
 				(length 7.62)
 				(name "PB02"
 					(effects
@@ -1272,9 +1283,11 @@
 						)
 					)
 				)
+				(alternate "RTC/IN1" bidirectional line)
+				(alternate "SUPC/OUT0" bidirectional line)
 			)
 			(pin bidirectional line
-				(at 0 -12.7 0)
+				(at -3.81 -12.7 0)
 				(length 7.62)
 				(name "PB03"
 					(effects
@@ -1297,7 +1310,7 @@
 				(alternate "X21/Y21" bidirectional line)
 			)
 			(pin bidirectional line
-				(at 0 -20.32 0)
+				(at -3.81 -20.32 0)
 				(length 7.62)
 				(name "PB06"
 					(effects
@@ -1320,52 +1333,15 @@
 			)
 		)
 		(symbol "ATSAME53J18A-AZ_2_1"
-			(polyline
-				(pts
-					(xy 7.62 -40.64) (xy 33.02 -40.64)
-				)
+			(rectangle
+				(start 7.62 5.08)
+				(end 33.02 -44.45)
 				(stroke
-					(width 0.127)
+					(width 0)
 					(type default)
 				)
 				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 7.62 5.08) (xy 7.62 -40.64)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 33.02 -40.64) (xy 33.02 5.08)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 33.02 5.08) (xy 7.62 5.08)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(pin power_in line

@@ -22,9 +22,12 @@ BT02002-00001	USB2514B/M2	SQFN36		bt_com
 
 BT03xxx = Power
 BT03001-00001	MIC2026A-1YM	SOIC8		bt_power
+BT03002-00001	LMS8117A		SOT223		bt_power	ToDo
+BT03003-00001	LM2592HVSX-ADJ	D2PAK		bt_power	ToDo
 
 BT04xxx = Amplifier
-BT04001-00001	INA350CDSIDDFR	SOT-23-8	bt_amp		50 gain instrument amplifier	ToDo: Amp
+BT04001-00001	INA350CDSIDDFR	SOT-23-8	bt_amp		50 gain instrument amplifier
+	ToDo: Amp
 
 
 BT05xxx = Oscillators
@@ -49,9 +52,6 @@ BT90xxx = modules
 BT90001-00001	TEENSY 4.0			bt_module
 BT90001-00002	TEENSY 4.0 SMT			bt_module
 BT90002-00001	TEENSY 4.1			bt_module
-
-
-
 
 
 none standard footprints are in bt_footprints

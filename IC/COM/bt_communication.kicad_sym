@@ -99,52 +99,15 @@
 			)
 		)
 		(symbol "KSZ8091MLXIA_1_1"
-			(polyline
-				(pts
-					(xy 7.62 -45.72) (xy 104.14 -45.72)
-				)
+			(rectangle
+				(start 7.62 3.81)
+				(end 68.58 -46.99)
 				(stroke
-					(width 0.127)
+					(width 0)
 					(type default)
 				)
 				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 7.62 5.08) (xy 7.62 -45.72)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 104.14 -45.72) (xy 104.14 5.08)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 104.14 5.08) (xy 7.62 5.08)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(pin bidirectional line
@@ -202,7 +165,7 @@
 				)
 			)
 			(pin output line
-				(at 111.76 -2.54 180)
+				(at 76.2 -3.81 180)
 				(length 7.62)
 				(name "XO"
 					(effects
@@ -292,7 +255,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 111.76 -25.4 180)
+				(at 76.2 -26.67 180)
 				(length 7.62)
 				(name "RXD3/PHYAD0"
 					(effects
@@ -310,7 +273,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 111.76 -22.86 180)
+				(at 76.2 -24.13 180)
 				(length 7.62)
 				(name "RXD2/PHYAD1"
 					(effects
@@ -328,7 +291,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 111.76 -20.32 180)
+				(at 76.2 -21.59 180)
 				(length 7.62)
 				(name "RXD1/PHYAD2"
 					(effects
@@ -346,7 +309,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 111.76 -17.78 180)
+				(at 76.2 -19.05 180)
 				(length 7.62)
 				(name "RXD0/DUPLEX"
 					(effects
@@ -364,7 +327,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 111.76 -27.94 180)
+				(at 76.2 -29.21 180)
 				(length 7.62)
 				(name "RXDV/CONFIG2"
 					(effects
@@ -436,7 +399,7 @@
 				)
 			)
 			(pin output line
-				(at 111.76 0 180)
+				(at 76.2 -1.27 180)
 				(length 7.62)
 				(name "TXC/PME_EN"
 					(effects
@@ -472,7 +435,7 @@
 				)
 			)
 			(pin input line
-				(at 111.76 -33.02 180)
+				(at 76.2 -34.29 180)
 				(length 7.62)
 				(name "TXD0"
 					(effects
@@ -490,7 +453,7 @@
 				)
 			)
 			(pin input line
-				(at 111.76 -35.56 180)
+				(at 76.2 -36.83 180)
 				(length 7.62)
 				(name "TXD1"
 					(effects
@@ -508,7 +471,7 @@
 				)
 			)
 			(pin input line
-				(at 111.76 -38.1 180)
+				(at 76.2 -39.37 180)
 				(length 7.62)
 				(name "TXD2"
 					(effects
@@ -526,7 +489,7 @@
 				)
 			)
 			(pin input line
-				(at 111.76 -40.64 180)
+				(at 76.2 -41.91 180)
 				(length 7.62)
 				(name "TXD3"
 					(effects
@@ -580,7 +543,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 111.76 -10.16 180)
+				(at 76.2 -11.43 180)
 				(length 7.62)
 				(name "LED0/PME_N1/NWAYEN"
 					(effects
@@ -598,7 +561,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 111.76 -12.7 180)
+				(at 76.2 -13.97 180)
 				(length 7.62)
 				(name "LED1/SPEED"
 					(effects
@@ -671,56 +634,19 @@
 			)
 		)
 		(symbol "KSZ8091MLXIA_2_1"
-			(polyline
-				(pts
-					(xy 7.62 -60.96) (xy 33.02 -60.96)
-				)
+			(rectangle
+				(start 7.62 1.27)
+				(end 30.48 -41.91)
 				(stroke
-					(width 0.127)
+					(width 0)
 					(type default)
 				)
 				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 7.62 5.08) (xy 7.62 -60.96)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 33.02 -60.96) (xy 33.02 5.08)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 33.02 5.08) (xy 7.62 5.08)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(pin power_out line
-				(at 0 -38.1 0)
+				(at 0 -20.32 0)
 				(length 7.62)
 				(name "GND"
 					(effects
@@ -738,7 +664,7 @@
 				)
 			)
 			(pin power_out line
-				(at 0 -45.72 0)
+				(at 0 -27.94 0)
 				(length 7.62)
 				(name "GND"
 					(effects
@@ -756,7 +682,7 @@
 				)
 			)
 			(pin power_out line
-				(at 0 -48.26 0)
+				(at 0 -30.48 0)
 				(length 7.62)
 				(name "GND"
 					(effects
@@ -774,7 +700,7 @@
 				)
 			)
 			(pin power_out line
-				(at 0 -40.64 0)
+				(at 0 -22.86 0)
 				(length 7.62)
 				(name "GND"
 					(effects
@@ -792,7 +718,7 @@
 				)
 			)
 			(pin power_out line
-				(at 0 -50.8 0)
+				(at 0 -33.02 0)
 				(length 7.62)
 				(name "GND"
 					(effects
@@ -810,7 +736,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -33.02 0)
+				(at 0 -15.24 0)
 				(length 7.62)
 				(name "VDDIO"
 					(effects
@@ -829,7 +755,7 @@
 			)
 			(pin no_connect line
 				(at 0 -7.62 0)
-				(length 7.62)
+				(length 7.62) hide
 				(name "NC"
 					(effects
 						(font
@@ -846,7 +772,7 @@
 				)
 			)
 			(pin power_out line
-				(at 0 -43.18 0)
+				(at 0 -25.4 0)
 				(length 7.62)
 				(name "GND"
 					(effects
@@ -864,7 +790,7 @@
 				)
 			)
 			(pin power_out line
-				(at 0 -53.34 0)
+				(at 0 -35.56 0)
 				(length 7.62)
 				(name "GND"
 					(effects
@@ -882,7 +808,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -22.86 0)
+				(at 0 -5.08 0)
 				(length 7.62)
 				(name "VDD_1.2"
 					(effects
@@ -900,7 +826,7 @@
 				)
 			)
 			(pin power_out line
-				(at 0 -55.88 0)
+				(at 0 -38.1 0)
 				(length 7.62)
 				(name "GND"
 					(effects
@@ -918,7 +844,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -20.32 0)
+				(at 0 -2.54 0)
 				(length 7.62)
 				(name "VDD_1.2"
 					(effects
@@ -936,8 +862,8 @@
 				)
 			)
 			(pin no_connect line
-				(at 0 -10.16 0)
-				(length 7.62)
+				(at 0 -7.62 0)
+				(length 7.62) hide
 				(name "NC"
 					(effects
 						(font
@@ -954,8 +880,8 @@
 				)
 			)
 			(pin no_connect line
-				(at 0 -12.7 0)
-				(length 7.62)
+				(at 0 -7.62 0)
+				(length 7.62) hide
 				(name "NC"
 					(effects
 						(font
@@ -972,8 +898,8 @@
 				)
 			)
 			(pin no_connect line
-				(at 0 -15.24 0)
-				(length 7.62)
+				(at 0 -7.62 0)
+				(length 7.62) hide
 				(name "NC"
 					(effects
 						(font
@@ -990,8 +916,8 @@
 				)
 			)
 			(pin no_connect line
-				(at 0 0 0)
-				(length 7.62)
+				(at 0 -7.62 0)
+				(length 7.62) hide
 				(name "NC"
 					(effects
 						(font
@@ -1008,8 +934,8 @@
 				)
 			)
 			(pin no_connect line
-				(at 0 -2.54 0)
-				(length 7.62)
+				(at 0 -7.62 0)
+				(length 7.62) hide
 				(name "NC"
 					(effects
 						(font
@@ -1026,7 +952,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -27.94 0)
+				(at 0 -10.16 0)
 				(length 7.62)
 				(name "VDDA_3.3"
 					(effects
@@ -1044,8 +970,8 @@
 				)
 			)
 			(pin no_connect line
-				(at 0 -5.08 0)
-				(length 7.62)
+				(at 0 -7.62 0)
+				(length 7.62) hide
 				(name "NC"
 					(effects
 						(font
@@ -1160,56 +1086,19 @@
 			)
 		)
 		(symbol "KSZ8091RNBCA_1_1"
-			(polyline
-				(pts
-					(xy 7.62 -59.69) (xy 88.9 -59.69)
-				)
+			(rectangle
+				(start 7.62 3.81)
+				(end 67.31 -57.15)
 				(stroke
-					(width 0.127)
+					(width 0)
 					(type default)
 				)
 				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 7.62 5.08) (xy 7.62 -59.69)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 88.9 -59.69) (xy 88.9 5.08)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 88.9 5.08) (xy 7.62 5.08)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(pin input line
-				(at 96.52 -57.15 180)
+				(at 74.93 -52.07 180)
 				(length 7.62)
 				(name "REXT"
 					(effects
@@ -1263,7 +1152,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 96.52 -15.24 180)
+				(at 74.93 -10.16 180)
 				(length 7.62)
 				(name "PHYAD0"
 					(effects
@@ -1281,7 +1170,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 96.52 -12.7 180)
+				(at 74.93 -7.62 180)
 				(length 7.62)
 				(name "PHYAD1"
 					(effects
@@ -1299,7 +1188,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 96.52 -10.16 180)
+				(at 74.93 -5.08 180)
 				(length 7.62)
 				(name "RXD1/PHYAD2"
 					(effects
@@ -1317,7 +1206,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 96.52 -7.62 180)
+				(at 74.93 -2.54 180)
 				(length 7.62)
 				(name "RXD0/DUPLEX"
 					(effects
@@ -1335,7 +1224,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 96.52 -20.32 180)
+				(at 74.93 -15.24 180)
 				(length 7.62)
 				(name "RXDV/CONFIG2"
 					(effects
@@ -1443,7 +1332,7 @@
 				)
 			)
 			(pin input line
-				(at 96.52 -30.48 180)
+				(at 74.93 -25.4 180)
 				(length 7.62)
 				(name "TXD0"
 					(effects
@@ -1461,7 +1350,7 @@
 				)
 			)
 			(pin input line
-				(at 96.52 -33.02 180)
+				(at 74.93 -27.94 180)
 				(length 7.62)
 				(name "TXD1"
 					(effects
@@ -1515,7 +1404,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 96.52 -25.4 180)
+				(at 74.93 -20.32 180)
 				(length 7.62)
 				(name "CONFIG0"
 					(effects
@@ -1533,7 +1422,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 96.52 -22.86 180)
+				(at 74.93 -17.78 180)
 				(length 7.62)
 				(name "CONFIG1"
 					(effects
@@ -1605,7 +1494,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 96.52 -49.53 180)
+				(at 74.93 -44.45 180)
 				(length 7.62)
 				(name "RXM"
 					(effects
@@ -1623,7 +1512,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 96.52 -46.99 180)
+				(at 74.93 -41.91 180)
 				(length 7.62)
 				(name "RXP"
 					(effects
@@ -1641,7 +1530,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 96.52 -41.91 180)
+				(at 74.93 -36.83 180)
 				(length 7.62)
 				(name "TXM"
 					(effects
@@ -1659,7 +1548,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 96.52 -39.37 180)
+				(at 74.93 -34.29 180)
 				(length 7.62)
 				(name "TXP"
 					(effects
@@ -1714,52 +1603,15 @@
 			)
 		)
 		(symbol "KSZ8091RNBCA_2_1"
-			(polyline
-				(pts
-					(xy 7.62 -15.24) (xy 33.02 -15.24)
-				)
+			(rectangle
+				(start 7.62 3.81)
+				(end 26.67 -13.97)
 				(stroke
-					(width 0.127)
+					(width 0)
 					(type default)
 				)
 				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 7.62 5.08) (xy 7.62 -15.24)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 33.02 -15.24) (xy 33.02 5.08)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 33.02 5.08) (xy 7.62 5.08)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(pin power_out line
@@ -1950,57 +1802,22 @@
 				(hide yes)
 			)
 		)
+		(symbol "USB2514B_M2_1_0"
+			(rectangle
+				(start 7.62 7.62)
+				(end 83.82 -53.34)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
 		(symbol "USB2514B_M2_1_1"
-			(polyline
-				(pts
-					(xy 7.62 -53.34) (xy 114.3 -53.34)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 7.62 7.62) (xy 7.62 -53.34)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 114.3 -53.34) (xy 114.3 7.62)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 114.3 7.62) (xy 7.62 7.62)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(pin bidirectional line
-				(at 121.92 -10.16 180)
+				(at 91.44 -8.89 180)
 				(length 7.62)
 				(name "USBDM_DN1/PRT_DIS_M1"
 					(effects
@@ -2036,7 +1853,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 121.92 -5.08 180)
+				(at 91.44 -3.81 180)
 				(length 7.62)
 				(name "PRTPWR1/BC_EN1"
 					(effects
@@ -2054,7 +1871,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 121.92 -2.54 180)
+				(at 91.44 -1.27 180)
 				(length 7.62)
 				(name "OCS_N1"
 					(effects
@@ -2090,7 +1907,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 121.92 -17.78 180)
+				(at 91.44 -16.51 180)
 				(length 7.62)
 				(name "PRTPWR2/BC_EN2"
 					(effects
@@ -2108,7 +1925,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 121.92 -15.24 180)
+				(at 91.44 -13.97 180)
 				(length 7.62)
 				(name "OCS_N2"
 					(effects
@@ -2126,7 +1943,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 121.92 -30.48 180)
+				(at 91.44 -29.21 180)
 				(length 7.62)
 				(name "PRTPWR3/BC_EN3"
 					(effects
@@ -2144,7 +1961,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 121.92 -27.94 180)
+				(at 91.44 -26.67 180)
 				(length 7.62)
 				(name "OCS_N3"
 					(effects
@@ -2162,7 +1979,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 121.92 -7.62 180)
+				(at 91.44 -6.35 180)
 				(length 7.62)
 				(name "USBDP_DN1/PRT_DIS_P1"
 					(effects
@@ -2180,7 +1997,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 121.92 -43.18 180)
+				(at 91.44 -41.91 180)
 				(length 7.62)
 				(name "PRTPWR4/BC_EN4"
 					(effects
@@ -2198,7 +2015,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 121.92 -40.64 180)
+				(at 91.44 -39.37 180)
 				(length 7.62)
 				(name "OSC_N4"
 					(effects
@@ -2324,7 +2141,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 121.92 -22.86 180)
+				(at 91.44 -21.59 180)
 				(length 7.62)
 				(name "USBDM_DN2/PRT_DIS_M2"
 					(effects
@@ -2450,7 +2267,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 121.92 -20.32 180)
+				(at 91.44 -19.05 180)
 				(length 7.62)
 				(name "USBDP_DN2/PRT_DIS_P2"
 					(effects
@@ -2468,7 +2285,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 121.92 -35.56 180)
+				(at 91.44 -34.29 180)
 				(length 7.62)
 				(name "USBDM_DN3/PRT_DIS_M3"
 					(effects
@@ -2486,7 +2303,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 121.92 -33.02 180)
+				(at 91.44 -31.75 180)
 				(length 7.62)
 				(name "USBDP_DN3/PRT_DIS_P3"
 					(effects
@@ -2504,7 +2321,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 121.92 -48.26 180)
+				(at 91.44 -46.99 180)
 				(length 7.62)
 				(name "USBDM_DN4/PRT_DIS_M4"
 					(effects
@@ -2522,7 +2339,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 121.92 -45.72 180)
+				(at 91.44 -44.45 180)
 				(length 7.62)
 				(name "USBDP_DN4/PRT_DIS_P4"
 					(effects
