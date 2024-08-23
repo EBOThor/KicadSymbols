@@ -6,8 +6,16 @@ BT00003-xxxxx	cap 50V MLCC	0805		bt_cap
 BT00004-xxxxx	cap 25V MLCC	0805		bt_cap
 BT00005-xxxxx	cap 16V MLCC	0805		bt_cap
 BT00006-xxxxx	cap 10V MLCC	0805		bt_cap
+BT00007-xxxxx	cap 50V MLCC	0603		bt_cap
+BT00008-xxxxx	cap 25V MLCC	0603		bt_cap
+BT00009-xxxxx	cap 16V MLCC	0603		bt_cap
+BT00010-xxxxx	cap 10V MLCC	0603		bt_cap
 
-BT00100-00001	L 1uH 3.1A		0805		bt_inductor
+
+
+
+BT00300-00001	L 1uH 3.1A		0805		bt_inductor
+BT00301-00001	DLM0NSM900HY2D	0302		bt_inductor
 
 
 ...
@@ -22,6 +30,9 @@ BT02xxx = Communication
 BT02001-00001	KSZ8091MLXIA	LQFP		bt_com
 BT02001-00002	KSZ8091RNBCA	VQFN		bt_com
 BT02002-00001	USB2514B/M2		SQFN36		bt_com
+BT02003-00001	FT4232HL		LQFP		bt_com
+BT02003-00002	FT4232HP		QFN 		bt_com
+
 
 BT03xxx = Power
 BT03001-00001	MIC2026A-1YM	SOIC8		bt_power
@@ -46,7 +57,8 @@ BT04001-00001	INA350CDSIDDFR	SOT-23-8	bt_amp		50 gain instrument amplifier
 
 BT05xxx = Oscillators
 BT05001-25601	SG3225CAN 25.0000M-TJGA6	4-pin-smd 	bt_oscillator
-BT05001-12601	SG3225CAN 12.0000M-TJGA6	4-pin-smd 	bt_oscillator		
+BT05001-12601	SG3225CAN 12.0000M-TJGA6	4-pin-smd 	bt_oscillator
+BT05001-24601	SG3225CAN 24.0000M-TJGA6	4-pin-smd 	bt_oscillator		
 
 
 BT06xxx = Transistors
