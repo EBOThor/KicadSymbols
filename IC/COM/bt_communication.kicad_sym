@@ -638,6 +638,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "ki_keywords" "2Ch Dual Digital Isolator 10Mbps"
@@ -4287,6 +4288,24 @@
 					)
 				)
 				(number "64"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 13.97 -53.34 90)
+				(length 3.81)
+				(name "EP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "65"
 					(effects
 						(font
 							(size 1.27 1.27)

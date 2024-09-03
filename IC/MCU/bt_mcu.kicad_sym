@@ -6895,6 +6895,707 @@
 			)
 		)
 	)
+	(symbol "PIC18F27Q84T-I_5N"
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 30.48 12.7 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "PIC18F27Q84T-I/5N"
+			(at 30.48 10.16 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "VQFN28_5N_MCH"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "PIC18F27Q84T-I/5N"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "PIC18F27Q84T-I/5N"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "VQFN28_5N_MCH VQFN28_5N_MCH-M VQFN28_5N_MCH-L"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "PIC18F27Q84T-I_5N_1_1"
+			(polyline
+				(pts
+					(xy 7.62 -45.72) (xy 53.34 -45.72)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 7.62) (xy 7.62 -45.72)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 53.34 -45.72) (xy 53.34 7.62)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 53.34 7.62) (xy 7.62 7.62)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin bidirectional line
+				(at 60.96 -5.08 180)
+				(length 7.62)
+				(name "RA2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 60.96 -27.94 180)
+				(length 7.62)
+				(name "RC2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 60.96 -30.48 180)
+				(length 7.62)
+				(name "RC3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 60.96 -33.02 180)
+				(length 7.62)
+				(name "RC4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 60.96 -35.56 180)
+				(length 7.62)
+				(name "RC5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 60.96 -38.1 180)
+				(length 7.62)
+				(name "RC6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 60.96 -40.64 180)
+				(length 7.62)
+				(name "RC7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 0 0 0)
+				(length 7.62)
+				(name "RB0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 0 -2.54 0)
+				(length 7.62)
+				(name "RB1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 60.96 -7.62 180)
+				(length 7.62)
+				(name "RA3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 0 -5.08 0)
+				(length 7.62)
+				(name "RB2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 0 -7.62 0)
+				(length 7.62)
+				(name "RB3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 0 -10.16 0)
+				(length 7.62)
+				(name "RB4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 0 -12.7 0)
+				(length 7.62)
+				(name "RB5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 0 -15.24 0)
+				(length 7.62)
+				(name "RB6/ICSPCLK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 0 -17.78 0)
+				(length 7.62)
+				(name "RB7/ICSPDAT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 0 -20.32 0)
+				(length 7.62)
+				(name "RE3/*MCLR/VPP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "26"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 60.96 0 180)
+				(length 7.62)
+				(name "RA0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "27"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 60.96 -2.54 180)
+				(length 7.62)
+				(name "RA1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "28"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 60.96 -10.16 180)
+				(length 7.62)
+				(name "RA4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 60.96 -12.7 180)
+				(length 7.62)
+				(name "RA5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 60.96 -17.78 180)
+				(length 7.62)
+				(name "RA7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 60.96 -15.24 180)
+				(length 7.62)
+				(name "RA6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 60.96 -22.86 180)
+				(length 7.62)
+				(name "RC0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 60.96 -25.4 180)
+				(length 7.62)
+				(name "RC_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PIC18F27Q84T-I_5N_2_1"
+			(polyline
+				(pts
+					(xy 7.62 -12.7) (xy 33.02 -12.7)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 5.08) (xy 7.62 -12.7)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 33.02 -12.7) (xy 33.02 5.08)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 33.02 5.08) (xy 7.62 5.08)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin power_out line
+				(at 0 -5.08 0)
+				(length 7.62)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 0 0)
+				(length 7.62)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 0 -7.62 0)
+				(length 7.62)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "29"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 0 -2.54 0)
+				(length 7.62)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 	(symbol "PIC18F67J60T-I_PT"
 		(pin_names
 			(offset 0.254)
@@ -7140,24 +7841,6 @@
 					)
 				)
 				(number "17"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 0 -2.54 0)
-				(length 7.62)
-				(name "ENVREG"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "18"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7871,7 +8554,7 @@
 		(symbol "PIC18F67J60T-I_PT_2_1"
 			(rectangle
 				(start 7.62 5.08)
-				(end 43.18 -45.72)
+				(end 25.4 -35.56)
 				(stroke
 					(width 0)
 					(type default)
@@ -7881,7 +8564,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 -10.16 0)
+				(at 0 -16.51 0)
 				(length 7.62)
 				(name "VDDCORE/VCAP"
 					(effects
@@ -7891,6 +8574,24 @@
 					)
 				)
 				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 -13.97 0)
+				(length 7.62)
+				(name "ENVREG"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "18"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7917,7 +8618,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 -20.32 0)
+				(at 0 -31.75 0)
 				(length 7.62)
 				(name "AVSS"
 					(effects
@@ -7935,8 +8636,8 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 -27.94 0)
-				(length 7.62)
+				(at 0 -21.59 0)
+				(length 7.62) hide
 				(name "VSS"
 					(effects
 						(font
@@ -7954,7 +8655,7 @@
 			)
 			(pin unspecified line
 				(at 0 -2.54 0)
-				(length 7.62)
+				(length 7.62) hide
 				(name "VDD"
 					(effects
 						(font
@@ -7971,8 +8672,8 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 -5.08 0)
-				(length 7.62)
+				(at 0 -2.54 0)
+				(length 7.62) hide
 				(name "VDD"
 					(effects
 						(font
@@ -7989,8 +8690,8 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 -30.48 0)
-				(length 7.62)
+				(at 0 -21.59 0)
+				(length 7.62) hide
 				(name "VSS"
 					(effects
 						(font
@@ -8007,7 +8708,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 -38.1 0)
+				(at 0 -26.67 0)
 				(length 7.62)
 				(name "VSSRX"
 					(effects
@@ -8025,7 +8726,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 -15.24 0)
+				(at 0 -8.89 0)
 				(length 7.62)
 				(name "VDDRX"
 					(effects
@@ -8043,7 +8744,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 -17.78 0)
+				(at 0 -11.43 0)
 				(length 7.62)
 				(name "VDDTX"
 					(effects
@@ -8061,7 +8762,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 -40.64 0)
+				(at 0 -29.21 0)
 				(length 7.62)
 				(name "VSSTX"
 					(effects
@@ -8079,7 +8780,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 -12.7 0)
+				(at 0 -6.35 0)
 				(length 7.62)
 				(name "VDDPLL"
 					(effects
@@ -8097,7 +8798,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 -35.56 0)
+				(at 0 -24.13 0)
 				(length 7.62)
 				(name "VSSPLL"
 					(effects
@@ -8115,7 +8816,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 -33.02 0)
+				(at 0 -21.59 0)
 				(length 7.62)
 				(name "VSS"
 					(effects
@@ -8133,7 +8834,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 -7.62 0)
+				(at 0 -2.54 0)
 				(length 7.62)
 				(name "VDD"
 					(effects
@@ -8151,8 +8852,8 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 -25.4 0)
-				(length 7.62)
+				(at 0 -21.59 0)
+				(length 7.62) hide
 				(name "VSS"
 					(effects
 						(font
@@ -8170,214 +8871,4 @@
 			)
 		)
 	)
-	
-	
-	  (symbol "PIC18F27Q84T-I_5N" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
-    (property "Reference" "U" (id 0) (at 30.48 12.7 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "Value" "PIC18F27Q84T-I/5N" (id 1) (at 30.48 10.16 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "Footprint" "VQFN28_5N_MCH" (id 2) (at 0 0 0)
-      (effects (font (size 1.27 1.27) italic) hide)
-    )
-    (property "Datasheet" "PIC18F27Q84T-I/5N" (id 3) (at 0 0 0)
-      (effects (font (size 1.27 1.27) italic) hide)
-    )
-    (property "ki_keywords" "PIC18F27Q84T-I/5N" (id 4) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_locked" "" (id 5) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "VQFN28_5N_MCH VQFN28_5N_MCH-M VQFN28_5N_MCH-L" (id 6) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "PIC18F27Q84T-I_5N_1_1"
-      (polyline
-        (pts
-          (xy 7.62 7.62)
-          (xy 7.62 -45.72)
-        )
-        (stroke (width 0.127) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 7.62 -45.72)
-          (xy 53.34 -45.72)
-        )
-        (stroke (width 0.127) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 53.34 -45.72)
-          (xy 53.34 7.62)
-        )
-        (stroke (width 0.127) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 53.34 7.62)
-          (xy 7.62 7.62)
-        )
-        (stroke (width 0.127) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (pin bidirectional line (at 60.96 -5.08 180) (length 7.62)
-        (name "RA2" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 60.96 -7.62 180) (length 7.62)
-        (name "RA3" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 60.96 -10.16 180) (length 7.62)
-        (name "RA4" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 60.96 -12.7 180) (length 7.62)
-        (name "RA5" (effects (font (size 1.27 1.27))))
-        (number "4" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 60.96 -17.78 180) (length 7.62)
-        (name "RA7" (effects (font (size 1.27 1.27))))
-        (number "6" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 60.96 -15.24 180) (length 7.62)
-        (name "RA6" (effects (font (size 1.27 1.27))))
-        (number "7" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 60.96 -22.86 180) (length 7.62)
-        (name "RC0" (effects (font (size 1.27 1.27))))
-        (number "8" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 60.96 -25.4 180) (length 7.62)
-        (name "RC 1" (effects (font (size 1.27 1.27))))
-        (number "9" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 60.96 -27.94 180) (length 7.62)
-        (name "RC2" (effects (font (size 1.27 1.27))))
-        (number "10" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 60.96 -30.48 180) (length 7.62)
-        (name "RC3" (effects (font (size 1.27 1.27))))
-        (number "11" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 60.96 -33.02 180) (length 7.62)
-        (name "RC4" (effects (font (size 1.27 1.27))))
-        (number "12" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 60.96 -35.56 180) (length 7.62)
-        (name "RC5" (effects (font (size 1.27 1.27))))
-        (number "13" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 60.96 -38.1 180) (length 7.62)
-        (name "RC6" (effects (font (size 1.27 1.27))))
-        (number "14" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 60.96 -40.64 180) (length 7.62)
-        (name "RC7" (effects (font (size 1.27 1.27))))
-        (number "15" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 0 0 0) (length 7.62)
-        (name "RB0" (effects (font (size 1.27 1.27))))
-        (number "18" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 0 -2.54 0) (length 7.62)
-        (name "RB1" (effects (font (size 1.27 1.27))))
-        (number "19" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 0 -5.08 0) (length 7.62)
-        (name "RB2" (effects (font (size 1.27 1.27))))
-        (number "20" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 0 -7.62 0) (length 7.62)
-        (name "RB3" (effects (font (size 1.27 1.27))))
-        (number "21" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 0 -10.16 0) (length 7.62)
-        (name "RB4" (effects (font (size 1.27 1.27))))
-        (number "22" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 0 -12.7 0) (length 7.62)
-        (name "RB5" (effects (font (size 1.27 1.27))))
-        (number "23" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 0 -15.24 0) (length 7.62)
-        (name "RB6/ICSPCLK" (effects (font (size 1.27 1.27))))
-        (number "24" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 0 -17.78 0) (length 7.62)
-        (name "RB7/ICSPDAT" (effects (font (size 1.27 1.27))))
-        (number "25" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 0 -20.32 0) (length 7.62)
-        (name "RE3/*MCLR/VPP" (effects (font (size 1.27 1.27))))
-        (number "26" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 60.96 0 180) (length 7.62)
-        (name "RA0" (effects (font (size 1.27 1.27))))
-        (number "27" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 60.96 -2.54 180) (length 7.62)
-        (name "RA1" (effects (font (size 1.27 1.27))))
-        (number "28" (effects (font (size 1.27 1.27))))
-      )
-    )
-    (symbol "PIC18F27Q84T-I_5N_2_1"
-      (polyline
-        (pts
-          (xy 7.62 5.08)
-          (xy 7.62 -12.7)
-        )
-        (stroke (width 0.127) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 7.62 -12.7)
-          (xy 33.02 -12.7)
-        )
-        (stroke (width 0.127) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 33.02 -12.7)
-          (xy 33.02 5.08)
-        )
-        (stroke (width 0.127) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 33.02 5.08)
-          (xy 7.62 5.08)
-        )
-        (stroke (width 0.127) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (pin power_out line (at 0 -2.54 0) (length 7.62)
-        (name "VSS" (effects (font (size 1.27 1.27))))
-        (number "5" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_out line (at 0 -5.08 0) (length 7.62)
-        (name "VSS" (effects (font (size 1.27 1.27))))
-        (number "16" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at 0 0 0) (length 7.62)
-        (name "VDD" (effects (font (size 1.27 1.27))))
-        (number "17" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_out line (at 0 -7.62 0) (length 7.62)
-        (name "VSS" (effects (font (size 1.27 1.27))))
-        (number "29" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-	
 )
