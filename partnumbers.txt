@@ -105,5 +105,7 @@ BT90001-00002	TEENSY 4.0 SMT			bt_module
 BT90002-00001	TEENSY 4.1			bt_module
 BT90003-00001	POLOLU-DRV8825		bt_module
 
+BT91xxx = mecanicals
+BT91001-00003	M;SW;3;SPST			bt_misc		DS04-254-2-03BK-SMT
 
 none standard footprints are in bt_footprints
