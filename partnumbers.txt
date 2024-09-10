@@ -6,6 +6,9 @@ BT00003-xxxxx	cap 50V MLCC	0805		bt_cap
 BT00004-xxxxx	cap 25V MLCC	0805		bt_cap
 BT00005-xxxxx	cap 16V MLCC	0805		bt_cap
 BT00006-xxxxx	cap 10V MLCC	0805		bt_cap
+BT00007-xxxxx	resistors		1206		bt_resistors
+BT00008-xxxxx	cap 2000V MLCC	1812		bt_cap
+
 
 BT00100-00001	L 1uH 3.1A		0805		bt_inductor
 
