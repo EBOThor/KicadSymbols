@@ -110,6 +110,7 @@ BT11002-00001	PSA071040		6_pin	bt_sensor	ToDo:Vacuum sensor
 
 BT12xxx = opto-coupler/relay
 BT11001-00001	TLP241B			so4		bt_relay
+BT11001-00002	TLP241B			DIL4		bt_relay
 
 
 BT13xxx = opto/LED/Display
