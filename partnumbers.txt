@@ -99,12 +99,20 @@ BT09001-00002		USBLC6-2SC6			SOT23-6			bt_ESD_protection
 
 ...
 BT10xxx = Connectors
-BT10000-00001	RJ45_LED_ETH_Shielded		magjack		bt_connector
+BT10001-00001	RJ45_LED_ETH_Shielded		magjack		bt_connector
+BT10002-00001	RJ45_LED_ETH_POE			magjack		bt_connector
 				
 ...
 BT11xxx = Sensors
 BT11001-00001	MPXV6115VC6U	SO8		bt_sensor	ToDo:Vacuum sensor
 BT11002-00001	PSA071040		6_pin	bt_sensor	ToDo:Vacuum sensor
+
+
+BT12xxx = opto-coupler/relay
+BT11001-00001	TLP241B			so4		bt_relay
+
+
+BT13xxx = opto/LED/Display
 
 ...
 BT90xxx = modules
