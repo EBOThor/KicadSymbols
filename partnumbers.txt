@@ -95,6 +95,7 @@ BT08xxx = Analog
 BT09xxx = TVS,MOV,mmm
 BT09001-00001		USBLC6-2SC6			SOT666			bt_ESD_protection
 BT09001-00002		USBLC6-2SC6			SOT23-6			bt_ESD_protection
+BT09002-00001		PESD2USB3UXT-Q			SOT23-3			bt_ESD_protection
 
 
 ...
