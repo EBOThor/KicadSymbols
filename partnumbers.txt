@@ -102,6 +102,12 @@ BT09002-00001		PESD2USB3UXT-Q			SOT23-3			bt_ESD_protection
 BT10xxx = Connectors
 BT10001-00001	RJ45_LED_ETH_Shielded		magjack		bt_connector
 BT10002-00001	RJ45_LED_ETH_POE			magjack		bt_connector
+BT10003-000xx	M;JST;01xXX;2.54;V			JST			bt_connector JST pin header 2.54 vertical xx=pinnumber
+BT10004-000xx	M;JST;01xXX;2.54;H			JST			bt_connector JST pin header 2.54 horisontal xx=pinnumber
+BT10005-000xx	M;PIN;01xXX;2.54;V			pin-head	bt_connector pin header 2.54 vertical xx=pinnumber 
+BT10006-000xx	M;PIN;01xXX;2.54;H			pin-head	bt_connector pin header 2.54 horisontal xx=pinnumber 
+BT10007-000xx	M;SOC;01xXX;2.54;V     		socket-head	bt_connector socket header 2.54 vertical xx=pinnumber
+BT10008-000xx	M;SOC;01xXX;2.54;H     		socket-head	bt_connector socket header 2.54 horisontal xx=pinnumber
 				
 ...
 BT11xxx = Sensors
