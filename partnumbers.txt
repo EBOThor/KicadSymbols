@@ -10,7 +10,9 @@ BT00007-xxxxx	resistors		1206		bt_resistors
 BT00008-xxxxx	cap 2000V MLCC	1812		bt_cap
 
 
-BT00100-00001	L 1uH 3.1A		0805		bt_inductor
+BT00200-00001	L 1uH 3.1A		0805		bt_inductor
+BT00201-HHhAa	SRR1208 Series	1208 		HH,h uH  A,a A	
+BT00201-33028	SRR1208-330YL	1208		bt_inductor	 33uh 2,8A  					
 
 
 ...
@@ -64,6 +66,7 @@ BT03008-00001	ADuM6020-3		SOIC16_W	bt_power	iso-DCDC 3V3 100mA
 BT03008-00002	ADuM6020-5		SOIC16_W	bt_power	iso-DCDC 5V	 100mA
 BT03008-00003	ADuM6028-3		SOIC8_W		bt_power	iso-DCDC 3V3 60mA
 BT03008-00004	ADuM6028-5		SOIC8_W		bt_power	iso-DCDC 5V  60mA
+BT03009-00001	LMR51610-Q1		SOT-23-6	bt_power	4.5V - 65V 1A
 
 
 
