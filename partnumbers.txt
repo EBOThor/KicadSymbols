@@ -32,7 +32,7 @@ BT01006-00003	PIC18F27Q84T-I	VQFN-28		bt_mcu
 
 
 ...
-BT02xxx = Communication
+BT02xxx = Communication/interface
 BT02001-00001	KSZ8091MLXIA	LQFP		bt_com
 BT02001-00002	KSZ8091RNBCA	VQFN		bt_com
 BT02002-00001	USB2514B/M2		SQFN36		bt_com
@@ -46,6 +46,13 @@ BT02006-00001	MCP2515			QFN-20		bt_com
 BT02007-00001	ATA6561			VDFN-8		bt_com
 BT02007-00002	ATA6561			SOIC-8		bt_com
 *BT02008-00001	ADUM4160
+BT02009-00001	MCP23S17		QFN-28		bt_interface	IO-expander 16 bit SPI 
+*BT02009-00002	MCP23S17		SOIC-28		bt_interface	IO-expander 16 bit SPI 
+*BT02009-00002	MCP23S17		PDIP-28		bt_interface	IO-expander 16 bit SPI 
+
+
+
+
 
 BT03xxx = Power
 BT03001-00001	MIC2026A-1YM	SOIC8		bt_power
@@ -119,8 +126,8 @@ BT11002-00001	PSA071040		6_pin	bt_sensor	ToDo:Vacuum sensor
 
 
 BT12xxx = opto-coupler/relay
-BT11001-00001	TLP241B			so4		bt_relay
-BT11001-00002	TLP241B			DIL4		bt_relay
+BT12001-00001	TLP241B			so4		bt_relay
+BT12001-00002	TLP241B			DIL4		bt_relay
 
 
 BT13xxx = opto/LED/Display
