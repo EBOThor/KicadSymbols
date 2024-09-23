@@ -146,4 +146,11 @@ BT90003-00001	POLOLU-DRV8825		bt_module
 BT91xxx = mecanicals
 BT91001-00003	M;SW;3;SPST			bt_misc		DS04-254-2-03BK-SMT
 
+
+boards:
+BT_0001-00001	USB_ETH_BOARD version 1
+
+
+
+
 none standard footprints are in bt_footprints
