@@ -1379,24 +1379,6 @@
 			)
 		)
 		(symbol "ATA6561-GAQW_0_1"
-			(pin unspecified line
-				(at 5.08 -3.81 0)
-				(length 2.54)
-				(name "TXD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin power_out line
 				(at 16.51 -15.24 90)
 				(length 2.54)
@@ -1426,42 +1408,6 @@
 					)
 				)
 				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 5.08 -6.35 0)
-				(length 2.54)
-				(name "RXD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 5.08 2.54 0)
-				(length 2.54)
-				(name "VIO"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1505,7 +1451,74 @@
 					)
 				)
 			)
-			(pin unspecified line
+		)
+		(symbol "ATA6561-GAQW_1_1"
+			(rectangle
+				(start 7.62 5.08)
+				(end 25.4 -12.7)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin input line
+				(at 5.08 -3.81 0)
+				(length 2.54)
+				(name "TXD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 5.08 -6.35 0)
+				(length 2.54)
+				(name "RXD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 5.08 2.54 0)
+				(length 2.54)
+				(name "VIO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
 				(at 5.08 0 0)
 				(length 2.54)
 				(name "STBY"
@@ -1521,19 +1534,6 @@
 							(size 1.27 1.27)
 						)
 					)
-				)
-			)
-		)
-		(symbol "ATA6561-GAQW_1_1"
-			(rectangle
-				(start 7.62 5.08)
-				(end 25.4 -12.7)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
 				)
 			)
 		)
@@ -6355,24 +6355,6 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 16.51 -33.02 90)
-				(length 2.54)
-				(name "EPAD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "21"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin input line
 				(at 0 -7.62 0)
 				(length 2.54)
@@ -6505,6 +6487,24 @@
 					)
 				)
 				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 16.51 -33.02 90)
+				(length 2.54)
+				(name "EPAD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "21"
 					(effects
 						(font
 							(size 1.27 1.27)
