@@ -6093,7 +6093,7 @@
 				(hide yes)
 			)
 		)
-		(property "CPN" "BT02006-00001 MCP2515"
+		(property "CPN" "BT02006-00001"
 			(at 3.81 15.494 0)
 			(effects
 				(font

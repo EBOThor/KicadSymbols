@@ -5121,7 +5121,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.electrokit.com/uploads/productfile/41010/MagJack.pdf"
+		(property "Datasheet" "https://www.electrokit.com/upload/product/41010/41010276/MagJack.pdf"
 			(at 0 17.78 0)
 			(effects
 				(font

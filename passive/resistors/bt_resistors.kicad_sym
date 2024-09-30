@@ -53,7 +53,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;0R;10P0;S;0603"
 			(at 3.048 9.398 90)
 			(effects
 				(font
@@ -192,7 +192,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0805;NA"
+		(property "MPN" "R;G;0R;10P0;S;0805"
 			(at 0 0 90)
 			(effects
 				(font
@@ -887,7 +887,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;10K;10P0;S;0603"
 			(at 0 0 90)
 			(effects
 				(font
@@ -3111,7 +3111,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;120R;10P0;S;0603"
 			(at 0 0 90)
 			(effects
 				(font
@@ -3250,7 +3250,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0805;NA"
+		(property "MPN" "R;G;120R;10P0;S;0805"
 			(at 0 0 90)
 			(effects
 				(font
@@ -6725,7 +6725,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;16K;10P0;S;0603"
 			(at 0 0 90)
 			(effects
 				(font
@@ -8393,7 +8393,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;1K1;10P0;S;0603"
 			(at 0 0 90)
 			(effects
 				(font
@@ -8532,7 +8532,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0805;NA"
+		(property "MPN" "R;G;1K1;10P0;S;0805"
 			(at 0 0 90)
 			(effects
 				(font
@@ -8671,7 +8671,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;1K2;10P0;S;0603"
 			(at 0 0 90)
 			(effects
 				(font
@@ -8810,7 +8810,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0805;NA"
+		(property "MPN" "R;G;1K2;10P0;S;0805"
 			(at 0 0 90)
 			(effects
 				(font
@@ -8949,7 +8949,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;1K5;10P0;S;0603"
 			(at 0 0 90)
 			(effects
 				(font
@@ -13675,7 +13675,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;200R;10P0;S;0603"
 			(at 0 0 90)
 			(effects
 				(font
@@ -17845,7 +17845,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;2K2;10P0;S;0603"
 			(at 0 0 90)
 			(effects
 				(font
@@ -26463,7 +26463,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;3K;10P0;S;0603"
 			(at 0 0 90)
 			(effects
 				(font
@@ -29521,7 +29521,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;43K;10P0;S;0603"
 			(at 0 0 90)
 			(effects
 				(font
@@ -32857,7 +32857,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;510K;10P0;S;0603"
 			(at 0 0 90)
 			(effects
 				(font
@@ -37027,7 +37027,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;620R;10P0;S;0603"
 			(at 0 0 90)
 			(effects
 				(font
