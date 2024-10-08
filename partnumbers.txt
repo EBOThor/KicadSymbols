@@ -13,6 +13,8 @@ BT00010-xxxxx	cap 10V MLCC	0603		bt_cap
 *BT00011-xxxxx	resistors		1206		bt_resistors
 *BT00012-xxxxx	cap 2000V MLCC	1812		bt_cap
 BT00013-xxxxx	cap 100V MLCC	0603		bt_cap
+BT00014-xxxxx	cap 35V MLCC	0603		bt_cap
+BT00015-xxxxx	cap 100V MLCC	0805		bt_cap
 
 
 
