@@ -15,7 +15,7 @@ BT00010-xxxxx	cap 10V MLCC	0603		bt_cap
 BT00013-xxxxx	cap 100V MLCC	0603		bt_cap
 BT00014-xxxxx	cap 35V MLCC	0603		bt_cap
 BT00015-xxxxx	cap 100V MLCC	0805		bt_cap
-
+*BT00016-00001   Diod            0603       bt_diod	SD0805S040S1R0 478-SD0805S040S1R0CT-ND
 
 
 

@@ -445,26 +445,6 @@
 				(hide yes)
 			)
 		)
-		(symbol "Simulator_Port_0_0"
-			(pin passive line
-				(at 0 0 0)
-				(length 2.54)
-				(name "Port"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "0"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Simulator_Port_0_1"
 			(rectangle
 				(start 2.54 1.27)
@@ -486,6 +466,26 @@
 				)
 				(fill
 					(type none)
+				)
+			)
+		)
+		(symbol "Simulator_Port_1_0"
+			(pin passive line
+				(at 0 0 0)
+				(length 2.54)
+				(name "Port"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
 			)
 		)
