@@ -15,7 +15,11 @@ BT00010-xxxxx	cap 10V MLCC	0603		bt_cap
 BT00013-xxxxx	cap 100V MLCC	0603		bt_cap
 BT00014-xxxxx	cap 35V MLCC	0603		bt_cap
 BT00015-xxxxx	cap 100V MLCC	0805		bt_cap
-*BT00016-00001   Diod            0603       bt_diod	SD0805S040S1R0 478-SD0805S040S1R0CT-ND
+*BT00016-00001   Diod           0603		bt_diod	SD0805S040S1R0 478-SD0805S040S1R0CT-ND
+BT00017-xxxxx	cap 100V MLCC	1210		bt_cap
+BT00018-xxxxx	cap 250V MLCC	1206		bt_cap
+BT00019-xxxxx	cap 100V elyt	8x10.5		bt_cap
+BT00020-00001	LL4148			SOD80		bt_diod
 
 
 
@@ -23,7 +27,10 @@ BT00009-xxxxx	cap 100V  MLCC	0603		bt_cap
 
 BT00200-00001	L 1uH 3.1A		0805		bt_inductor
 BT00201-HHhAa	SRR1208 Series	1208 		HH,h uH  A,a A	
-BT00201-33028	SRR1208-330YL	1208		bt_inductor	 33uh 2,8A  					
+BT00201-33028	SRR1208-330YL	1208		bt_inductor	 33uh 2,8A  
+BT00202-00001	L 1.1Uh 15A		7050		WE 744314110
+BT00203-00001	L 1mH 200mA		5040		WE 74404054102
+			
 
 
 ...
@@ -116,7 +123,9 @@ BT08xxx = Analog
 BT09xxx = TVS,MOV,mmm
 BT09001-00001		USBLC6-2SC6			SOT666			bt_ESD_protection
 BT09001-00002		USBLC6-2SC6			SOT23-6			bt_ESD_protection
-BT09002-00001		PESD2USB3UXT-Q			SOT23-3			bt_ESD_protection
+BT09002-00001		PESD2USB3UXT-Q		SOT23-3			bt_ESD_protection
+BT09003-00001		TVS-SS_824012823	DFN1210-6L		bt_ESD_protection
+
 
 
 ...
@@ -129,6 +138,9 @@ BT10005-000xx	M;PIN;01xXX;2.54;V			pin-head	bt_connector pin header 2.54 vertica
 BT10006-000xx	M;PIN;01xXX;2.54;H			pin-head	bt_connector pin header 2.54 horisontal xx=pinnumber 
 BT10007-000xx	M;SOC;01xXX;2.54;V     		socket-head	bt_connector socket header 2.54 vertical xx=pinnumber
 BT10008-000xx	M;SOC;01xXX;2.54;H     		socket-head	bt_connector socket header 2.54 horisontal xx=pinnumber
+BT10009-000xx	M;SLB4;XX;4x4;H				bannana connector bt_connector edge mounted connector 4x4mm pad. 	xx=color 01=read,02=black, ... TBD
+
+
 				
 ...
 BT11xxx = Sensors
@@ -160,6 +172,7 @@ BT91001-00003	M;SW;3;SPST			bt_misc		DS04-254-2-03BK-SMT
 
 boards:
 BT_0001-00001	USB_ETH_BOARD version 1
+BT_0002-00001	LISN 5uH single channel
 
 
 

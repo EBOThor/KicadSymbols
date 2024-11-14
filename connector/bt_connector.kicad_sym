@@ -4452,7 +4452,7 @@
 			)
 		)
 	)
-	(symbol "M;JST;01x02;2.54"
+	(symbol "M;JST;01x02;2.50"
 		(pin_names
 			(offset 1.016) hide)
 		(exclude_from_sim no)
@@ -4466,7 +4466,7 @@
 				)
 			)
 		)
-		(property "Value" "JST,2.54"
+		(property "Value" "JST,2.50"
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -4492,7 +4492,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "JST 2 pin Pitch 2.50"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4546,7 +4546,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "M;JST;01x02;2.54_1_1"
+		(symbol "M;JST;01x02;2.50_1_1"
 			(rectangle
 				(start -1.27 -2.413)
 				(end 0 -2.667)
@@ -4618,7 +4618,7 @@
 			)
 		)
 	)
-	(symbol "M;JST;01x03;2.54"
+	(symbol "M;JST;01x03;2.50"
 		(pin_names
 			(offset 1.016) hide)
 		(exclude_from_sim no)
@@ -4632,7 +4632,7 @@
 				)
 			)
 		)
-		(property "Value" "JST,2.54"
+		(property "Value" "JST,2.50"
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -4658,7 +4658,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "JST 3 pin Pitch 2.50"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4712,7 +4712,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "M;JST;01x03;2.54_1_1"
+		(symbol "M;JST;01x03;2.50_1_1"
 			(rectangle
 				(start -1.27 -2.413)
 				(end 0 -2.667)
@@ -4813,7 +4813,7 @@
 			)
 		)
 	)
-	(symbol "M;JST;01x06;2.54"
+	(symbol "M;JST;01x06;2.50"
 		(pin_names
 			(offset 1.016) hide)
 		(exclude_from_sim no)
@@ -4827,7 +4827,7 @@
 				)
 			)
 		)
-		(property "Value" "JST;2.54"
+		(property "Value" "JST;2.50"
 			(at 0 -10.16 0)
 			(effects
 				(font
@@ -4853,7 +4853,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "JST 6 pin Pitch 2.50"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4904,7 +4904,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "M;JST;01x06;2.54_1_1"
+		(symbol "M;JST;01x06;2.50_1_1"
 			(rectangle
 				(start -1.27 -7.493)
 				(end 0 -7.747)
@@ -5083,6 +5083,302 @@
 					)
 				)
 				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "M;SLB4;01;B;6x6"
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "X"
+			(at 0.254 3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SLB4,BLACK"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "bt_footprints:SLB4_6x6mm"
+			(at -0.762 4.572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 5.334 -5.588 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SLB4 BLACK SMD"
+			(at 0 4.318 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CPN" "BT10008-00002"
+			(at 0 -7.112 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SLB4 Black"
+			(at 0 -6.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SMT" "y"
+			(at 6.858 -5.588 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "connector"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "M;SLB4;01;B;6x6_1_1"
+			(rectangle
+				(start -2.54 1.27)
+				(end 0 -1.27)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(rectangle
+				(start 0 2.54)
+				(end 6.35 -2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(rectangle
+				(start 1.27 1.27)
+				(end 6.35 -1.27)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -6.35 0 0)
+				(length 3.81)
+				(name "Pin_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "M;SLB4;01;R;6x6"
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "X"
+			(at 0.508 3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SLB4,RED"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "bt_footprints:SLB4_6x6mm"
+			(at -0.762 4.572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 5.334 -5.588 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SLB4 Red SMD"
+			(at 0 4.318 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CPN" "BT10008-00001"
+			(at 0 -7.112 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SLB4 Red"
+			(at 0 -6.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SMT" "y"
+			(at 6.858 -5.588 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "connector"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "M;SLB4;01;R;6x6_1_1"
+			(rectangle
+				(start -2.54 1.27)
+				(end 0 -1.27)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(rectangle
+				(start 0 2.54)
+				(end 6.35 -2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(rectangle
+				(start 1.27 1.27)
+				(end 6.35 -1.27)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -6.35 0 0)
+				(length 3.81)
+				(name "Pin_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
