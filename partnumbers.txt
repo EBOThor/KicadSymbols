@@ -20,6 +20,11 @@ BT00017-xxxxx	cap 100V MLCC	1210		bt_cap
 BT00018-xxxxx	cap 250V MLCC	1206		bt_cap
 BT00019-xxxxx	cap 100V elyt	8x10.5		bt_cap
 BT00020-00001	LL4148			SOD80		bt_diod
+BT00021-xxxxx	resistors		0402		bt_resistors
+BT00022-xxxxx	cap 50V MLCC	0402		bt_cap
+BT00023-xxxxx	cap 25V MLCC	0402		bt_cap
+BT00024-xxxxx	cap 16V MLCC	0402		bt_cap
+BT00025-xxxxx	cap 10V MLCC	0402		bt_cap
 
 
 
