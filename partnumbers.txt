@@ -146,7 +146,10 @@ BT10006-000xx	M;PIN;01xXX;2.54;H			pin-head	bt_connector pin header 2.54 horison
 BT10007-000xx	M;SOC;01xXX;2.54;V     		socket-head	bt_connector socket header 2.54 vertical xx=pinnumber
 BT10008-000xx	M;SOC;01xXX;2.54;H     		socket-head	bt_connector socket header 2.54 horisontal xx=pinnumber
 BT10009-000xx	M;SLB4;XX;4x4;H				bannana connector bt_connector edge mounted connector 4x4mm pad. 	xx=color 01=read,02=black, ... TBD
-
+BT10010-00020   M;FI-SE;20;1.25			    FI-SE20P-HFE				
+BT10010-000xx   M;FI-SE;xx;1.25				FI-SExxP-HFE
+BT10011-00020   M;FD19;20;1				    2005280200 FPC molex				
+BT10011-000xx   M;FD19;xx;1					FD19 series molex
 
 				
 ...
@@ -180,7 +183,7 @@ BT91001-00003	M;SW;3;SPST			bt_misc		DS04-254-2-03BK-SMT
 boards:
 BT_0001-00001	USB_ETH_BOARD version 1
 BT_0002-00001	LISN 5uH single channel
-
+BT_0003-00001	LVDS_Testboard
 
 
 
