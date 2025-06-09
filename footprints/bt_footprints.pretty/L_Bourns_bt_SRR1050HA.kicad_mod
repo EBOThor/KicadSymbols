@@ -1,0 +1,243 @@
+(footprint "L_Bourns_bt_SRR1050HA"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Inductor, Bourns, SRP1050WA, 11.0x10.0x5.1mm, (https://www.bourns.com/docs/product-datasheets/SRP1050WA.pdf), generated with kicad-footprint-generator gen_inductor.py")
+	(tags "Inductor power shielded")
+	(property "Reference" "REF**"
+		(at 0 -6 0)
+		(layer "F.SilkS")
+		(uuid "712b8c7e-7073-4d3a-b647-575293e70160")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L_Bourns_bt_SRR1050HA"
+		(at 0 6 0)
+		(layer "F.Fab")
+		(uuid "9f7ba69a-ac29-4c70-9a37-439bf8c0f8b9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2dab6931-6021-49d7-9c5a-ae5c875302f2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c5f2ec1e-0492-4026-9b83-efc00a03a260")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "585c0fe1-2b6c-45bc-905c-913aed5343c0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -5.76 -5.26)
+		(end -5.76 -2.76)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d6aa92fe-d6e1-4685-9080-f97578917f20")
+	)
+	(fp_line
+		(start -5.76 -5.26)
+		(end 5.76 -5.26)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "571b709e-539f-4cc5-b9ba-9f9200abee27")
+	)
+	(fp_line
+		(start -5.76 5.26)
+		(end -5.76 2.76)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9cf35cb5-2807-431f-8bc1-3ccd1cf81fe6")
+	)
+	(fp_line
+		(start -5.76 5.26)
+		(end 5.76 5.26)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "081dc5de-49cc-47a7-a96b-54dd2100966f")
+	)
+	(fp_line
+		(start 5.76 -5.26)
+		(end 5.76 -2.76)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3c7d7e6d-bf98-4634-8404-1141d02e93a5")
+	)
+	(fp_line
+		(start 5.76 5.26)
+		(end 5.76 2.76)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7e47b32d-6a37-4190-ac34-44b1c71d30cf")
+	)
+	(fp_line
+		(start -6.4 -5.25)
+		(end -6.4 5.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "195b865d-026b-40e5-aa39-ae79bc5cdcac")
+	)
+	(fp_line
+		(start -6.4 5.25)
+		(end 6.4 5.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a8330f48-f2d9-4079-a3e7-e62e6a06f086")
+	)
+	(fp_line
+		(start 6.4 -5.25)
+		(end -6.4 -5.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bd3d22e9-b120-49b2-a072-98d84b46e216")
+	)
+	(fp_line
+		(start 6.4 5.25)
+		(end 6.4 -5.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "348bc8f9-b4c5-4125-b2e0-989b1345a5da")
+	)
+	(fp_line
+		(start -5.5 -5)
+		(end -5.5 5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e17621f0-01ae-4f40-a67b-936da6bd1076")
+	)
+	(fp_line
+		(start -5.5 5)
+		(end 5.5 5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f9be3ba9-ee03-48cb-b99b-c61e62427d56")
+	)
+	(fp_line
+		(start 5.5 -5)
+		(end -5.5 -5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1f56ac74-145f-4105-b484-9d21a33a23a9")
+	)
+	(fp_line
+		(start 5.5 5)
+		(end 5.5 -5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "54f78ab5-87cf-4d9e-ada5-6b6debc2fc5e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "77e35cf1-3e6d-4c48-93d6-10caa89279de")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -4.45 0)
+		(size 1.6 3.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.073529)
+		(uuid "b7cf4684-cfdc-4d7e-abbd-6bfcf44e6d91")
+	)
+	(pad "2" smd roundrect
+		(at 4.45 0)
+		(size 1.6 3.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.073529)
+		(uuid "ef76edd5-3bfd-4c43-8928-1d33c58ccbd1")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Bourns_SRP1050WA.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
