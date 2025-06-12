@@ -2951,24 +2951,6 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 8.89 -25.4 90)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin input line
 				(at -2.54 -13.97 0)
 				(length 2.54)
@@ -2998,6 +2980,26 @@
 				)
 				(fill
 					(type background)
+				)
+			)
+		)
+		(symbol "TPS629203-Q1_1_0"
+			(pin passive line
+				(at 8.89 -25.4 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
 			)
 		)
