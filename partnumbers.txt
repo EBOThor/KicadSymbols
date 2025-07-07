@@ -84,7 +84,7 @@ BT02010-00001	LAN7431			SQFN72		bt_com
 BT02011-00001	LAN9370			VQFN64		bt_com
 BT02012-00001	MAX96716F		TQFN48		bt_com
 *BT02013-00001	MAX96714F		TQFN48		bt_com
-*BT02013-00001	MAX96724F		TQFN48		bt_com
+*BT02014-00001	MAX96724F		TQFN48		bt_com
 	
 
 
@@ -117,10 +117,6 @@ BT03012-26140   TPV809R-3TR		SOT23-3		bt_power	2.6 threshold voltage 140 ms TPV8
 *BT03013-VVTTT  TPV803x-xxx		SOT23-3		bt_power	TPV803 famely 1.58 V - 4.63V
 *BT03014-xxxxx	MAX20049			
 *BT03014-00004	MAX20049ATED/VY+ 16_SW_TQFN	bt_power	buck and LDO DC/DC 3v3,2v8,1v8,1v2 0.8A
-
-
-
-
 
 
 
@@ -179,6 +175,9 @@ BT10010-000xx   M;FI-SE;xx;1.25				FI-SExxP-HFE
 BT10011-00020   M;FD19;20;1				    2005280200 FPC molex				
 BT10011-000xx   M;FD19;xx;1					FD19 series molex
 *BT10012-0000x	M;TS;x;2.54					terminal connector x pol bt_connector	Würth Elektronik	691210910002,691210910003...
+BT10013-00001	M2-M-code					M2-M-code
+BT10014-00001	10164227-1001A1RLF			Amphenol
+
 				
 ...
 BT11xxx = Sensors
@@ -188,7 +187,7 @@ BT11002-00001	PSA071040		6_pin	bt_sensor	ToDo:Vacuum sensor
 
 BT12xxx = opto-coupler/relay
 BT12001-00001	TLP241B			so4		bt_relay
-BT12001-00002	TLP241B			DIL4		bt_relay
+BT12001-00002	TLP241B			DIL4	bt_relay
 
 
 BT13xxx = opto/LED/Display
@@ -207,6 +206,7 @@ BT90001-00001	TEENSY 4.0			bt_module
 BT90001-00002	TEENSY 4.0 SMT		bt_module
 BT90002-00001	TEENSY 4.1			bt_module
 BT90003-00001	POLOLU-DRV8825		bt_module
+BT90004-00001	Raspberry pi CM5	bt_module 
 
 BT91xxx = mecanicals
 BT91001-00003	M;SW;3;SPST			bt_misc		DS04-254-2-03BK-SMT
