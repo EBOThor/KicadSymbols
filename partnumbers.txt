@@ -224,3 +224,20 @@ BT_0004-00001	PWM_board version 1
 
 
 none standard footprints are in bt_footprints
+
+
+
+
+
+
+
+intresting IS
+TPS342x 		Low-Power, Push-Button Controllers With Configurable Delay
+
+SN74LVC1G373 	Single D-Type Latch With 3-State Output
+NC7SZ175P6X		Single D-Type Flip-Flop with Asynchronous Clear
+TPS563252		3A 17 V in buck converter
+LIS2DH12TR		3 axis accelerometer + temp sensor
+TPS3828-33DBVR	supervision + watchdog
+
+
