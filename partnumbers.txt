@@ -239,5 +239,5 @@ NC7SZ175P6X		Single D-Type Flip-Flop with Asynchronous Clear
 TPS563252		3A 17 V in buck converter
 LIS2DH12TR		3 axis accelerometer + temp sensor
 TPS3828-33DBVR	supervision + watchdog
-
-
+PCA9685BS		16 ch LED dirver PWM
+MAX1613600		supervision + watchdog
